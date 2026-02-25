@@ -1,0 +1,1205 @@
+{
+    "topic": "Computer GK - Technology & Software / कंप्यूटर सामान्य ज्ञान",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which Microsoft-based technology was built to link desktop applications to the World Wide Web? [SSC CGL 2019]",
+            "options": [
+                "Active Channel",
+                "Active Desktop",
+                "ActiveX",
+                "None of the above"
+            ],
+            "correctIndex": 2,
+            "explanation": "ActiveX is a Microsoft technology built to link desktop applications to the World Wide Web."
+        },
+        {
+            "id": 2,
+            "question": "Which among the following is the most common source of Viruses to the hard disk of your computer? [UGC NET 2019]",
+            "options": [
+                "Incoming Email",
+                "Outgoing Email",
+                "CD ROMs",
+                "Websites"
+            ],
+            "correctIndex": 0,
+            "explanation": "Incoming email is the most common source of viruses to computers."
+        },
+        {
+            "id": 3,
+            "question": "Symantec is the maker of which among the following popular antivirus software? [UGC NET 2019]",
+            "options": [
+                "Norton",
+                "BitDefender",
+                "Avast",
+                "McAfee VirusScan"
+            ],
+            "correctIndex": 0,
+            "explanation": "Symantec is the maker of Norton antivirus software."
+        },
+        {
+            "id": 4,
+            "question": "Which of the following lies within the CPU? [UGC NET 2019]",
+            "options": [
+                "Primary Memory",
+                "Secondary Memory",
+                "Mouse",
+                "Keyboard"
+            ],
+            "correctIndex": 0,
+            "explanation": "Primary Memory (RAM, Cache) lies within or directly interfaces with the CPU."
+        },
+        {
+            "id": 5,
+            "question": "\"Internet escrow\" is a term most commonly related to which of the following? [UGC NET 2019]",
+            "options": [
+                "E-commerce",
+                "Software Development",
+                "Privacy Security",
+                "Database Management"
+            ],
+            "correctIndex": 0,
+            "explanation": "Internet escrow is most commonly related to E-commerce transactions."
+        },
+        {
+            "id": 6,
+            "question": "In the Windows XP, what does XP stands for? [UGC NET 2019]",
+            "options": [
+                "eXPerience",
+                "eXtra Power",
+                "eXtreme Processing",
+                "eXtended Platform"
+            ],
+            "correctIndex": 0,
+            "explanation": "XP in Windows XP stands for eXPerience."
+        },
+        {
+            "id": 7,
+            "question": "V-RAM is used for access of the following? [UGC NET 2019]",
+            "options": [
+                "Video & Graphics",
+                "Text & Images",
+                "programs",
+                "None of the above"
+            ],
+            "correctIndex": 0,
+            "explanation": "V-RAM (Video RAM) is used for accessing Video & Graphics data."
+        },
+        {
+            "id": 8,
+            "question": "The word bandwidth is also used to mean ________? [UGC NET 2019]",
+            "options": [
+                "width of the data cable",
+                "amount of data transferred",
+                "number of computers on a network",
+                "none of the above"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bandwidth also means the amount of data transferred over a network connection."
+        },
+        {
+            "id": 9,
+            "question": "Which among the following is correct about 4GL? [UGC NET 2019]",
+            "options": [
+                "A computer brand",
+                "A software brand",
+                "A software program",
+                "A programming language"
+            ],
+            "correctIndex": 3,
+            "explanation": "4GL stands for Fourth Generation Language, which is a type of programming language."
+        },
+        {
+            "id": 10,
+            "question": "Why should you be aware of the \"Dictionary attack\" in internet banking? [UGC NET 2019]",
+            "options": [
+                "It is used to inject worms or viruses",
+                "It is used to determine a password",
+                "It accesses customer's account by determining other details",
+                "It is used for stealing info from Credit Card"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dictionary attack is used to determine passwords by trying common words and combinations."
+        },
+        {
+            "id": 11,
+            "question": "Which of the following is not the basic capability of a computer? [UGC NET 2019]",
+            "options": [
+                "Speed",
+                "Accuracy",
+                "Prediction",
+                "Processing"
+            ],
+            "correctIndex": 2,
+            "explanation": "Prediction is not a basic capability of a computer. Speed, Accuracy, and Processing are."
+        },
+        {
+            "id": 12,
+            "question": "Which of the following is not an input device of the computer? [UGC NET 2019]",
+            "options": [
+                "Trackball",
+                "Image Scanner",
+                "Joystick",
+                "Sound Card"
+            ],
+            "correctIndex": 3,
+            "explanation": "Sound Card is an internal component, not an input device."
+        },
+        {
+            "id": 13,
+            "question": "Which of the following is a single integrated circuit on which CPUs are typically constructed? [UGC NET 2019]",
+            "options": [
+                "Microprocessor",
+                "Memory",
+                "Motherboard",
+                "Hard Disk"
+            ],
+            "correctIndex": 0,
+            "explanation": "A microprocessor is a single integrated circuit on which CPUs are constructed."
+        },
+        {
+            "id": 14,
+            "question": "What kind of data is processed by an analog computer?",
+            "options": [
+                "Discrete Data",
+                "Intermittent Data",
+                "Discretely varying Data",
+                "Continuously varying Data"
+            ],
+            "correctIndex": 3,
+            "explanation": "Analog computers process continuously varying data."
+        },
+        {
+            "id": 15,
+            "question": "In which of the following applications are analog computers used? [SSC CGL 2019]",
+            "options": [
+                "Measurement of Electric Current",
+                "Measurement of Frequency",
+                "Measurement of Resistance of a Capacitor",
+                "All of the above"
+            ],
+            "correctIndex": 3,
+            "explanation": "Analog computers are used in all these measurement applications."
+        },
+        {
+            "id": 16,
+            "question": "Where are the instructions used to run a digital computer stored? [SSC CGL 2019]",
+            "options": [
+                "Motherboard",
+                "Hard Disk",
+                "Memory",
+                "All of the above"
+            ],
+            "correctIndex": 2,
+            "explanation": "Instructions used to run a digital computer are stored in Memory."
+        },
+        {
+            "id": 17,
+            "question": "What are four basic functional elements of a digital computer? [SSC CGL 2019]",
+            "options": [
+                "Input-Output Equipment",
+                "Main Memory",
+                "Control Unit and ALU",
+                "All of the above"
+            ],
+            "correctIndex": 3,
+            "explanation": "All four — I/O Equipment, Main Memory, Control Unit and ALU — are basic functional elements."
+        },
+        {
+            "id": 18,
+            "question": "A device which is not connected to the CPU is known as? [SSC CGL 2019]",
+            "options": [
+                "Land-line device",
+                "On-line device",
+                "Off-line device",
+                "Device"
+            ],
+            "correctIndex": 2,
+            "explanation": "An off-line device is one that is not connected to the CPU."
+        },
+        {
+            "id": 19,
+            "question": "What is the full form of UPS? [SSC CGL 2019]",
+            "options": [
+                "Unplugged Power Supply",
+                "Uninterruptible Power System",
+                "Unknown Power Source",
+                "Uninterrupted Power Source"
+            ],
+            "correctIndex": 1,
+            "explanation": "UPS stands for Uninterruptible Power System."
+        },
+        {
+            "id": 20,
+            "question": "Monitors, printers, disk drives, keyboard, mouse are included in which category? [SSC CGL 2019]",
+            "options": [
+                "Storage Device",
+                "Hardware",
+                "Software",
+                "All of the Above"
+            ],
+            "correctIndex": 1,
+            "explanation": "All these are physical components and hence fall under Hardware."
+        },
+        {
+            "id": 21,
+            "question": "What is the use of the wheel located between the two standard buttons on a mouse? [SSC CGL 2019]",
+            "options": [
+                "To scroll",
+                "To click",
+                "To drag",
+                "To select"
+            ],
+            "correctIndex": 0,
+            "explanation": "The wheel on a mouse is used to scroll through pages and documents."
+        },
+        {
+            "id": 22,
+            "question": "Which type of failure occurs because of input device that does not read data correctly? [SSC CGL 2019]",
+            "options": [
+                "input error",
+                "output error",
+                "read error",
+                "write error"
+            ],
+            "correctIndex": 2,
+            "explanation": "A read error occurs when an input device does not read data correctly."
+        },
+        {
+            "id": 23,
+            "question": "Document reader and a light pen are classical examples of which of the following? [SSC CGL 2019]",
+            "options": [
+                "Reading devices",
+                "Light devices",
+                "Input devices",
+                "Digital devices"
+            ],
+            "correctIndex": 2,
+            "explanation": "Document reader and light pen are classical examples of input devices."
+        },
+        {
+            "id": 24,
+            "question": "Which of the following consist of the computer main memory?",
+            "options": [
+                "Hard drive and RAM",
+                "CD-ROM and hard drive",
+                "RAM and ROM",
+                "CMOS and hard drive"
+            ],
+            "correctIndex": 2,
+            "explanation": "Computer main memory consists of RAM and ROM."
+        },
+        {
+            "id": 25,
+            "question": "Which of the following is the ability of a system to jump directly to the requested data? [IBPS PO 2019]",
+            "options": [
+                "Sequential Access",
+                "Random Access",
+                "Quick Access",
+                "All of the Above"
+            ],
+            "correctIndex": 1,
+            "explanation": "Random Access is the ability to jump directly to the requested data."
+        },
+        {
+            "id": 26,
+            "question": "The smallest unit in which data can be stored is known by which name? [IBPS PO 2019]",
+            "options": [
+                "Bit",
+                "Byte",
+                "Kilobyte",
+                "Megabyte"
+            ],
+            "correctIndex": 0,
+            "explanation": "A Bit (Binary Digit) is the smallest unit of data storage (0 or 1)."
+        },
+        {
+            "id": 27,
+            "question": "Which of the following is the name given to the concentric circles on a diskette? [IBPS PO 2019]",
+            "options": [
+                "Sectors",
+                "Cylinders",
+                "Tracks",
+                "Clusters"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tracks are the concentric circles on a diskette/disk."
+        },
+        {
+            "id": 28,
+            "question": "What is the meaning of SMART commands in system maintenance? [IBPS PO 2019]",
+            "options": [
+                "Self-Monitoring, Analysis and Reporting Technology",
+                "System Management And Recovery Tool",
+                "Standard Machine Automated Recovery Technology",
+                "Self-Managing And Remote Technology"
+            ],
+            "correctIndex": 0,
+            "explanation": "SMART stands for Self-Monitoring, Analysis and Reporting Technology."
+        },
+        {
+            "id": 29,
+            "question": "Which act specifically exempts computer-maintenance activities for making copies of copyright files? [IBPS PO 2019]",
+            "options": [
+                "The infringement act",
+                "The Digital Millennium Copyright Act",
+                "Intellectual Property Rights Act",
+                "All of the Above"
+            ],
+            "correctIndex": 1,
+            "explanation": "The Digital Millennium Copyright Act exempts computer-maintenance activities."
+        },
+        {
+            "id": 30,
+            "question": "Copies of data or program files stored as a safety measure are called? [IBPS PO 2019]",
+            "options": [
+                "Backups",
+                "Programs",
+                "Extras",
+                "Stores"
+            ],
+            "correctIndex": 0,
+            "explanation": "Backups are copies of data stored as a safety measure."
+        },
+        {
+            "id": 31,
+            "question": "What is the full form of UDF? [SSC 2024]",
+            "options": [
+                "Universal data frequency",
+                "Unique disk format",
+                "Universal disk format",
+                "Undated disk format"
+            ],
+            "correctIndex": 2,
+            "explanation": "UDF stands for Universal Disk Format."
+        },
+        {
+            "id": 32,
+            "question": "Which of the following is another name given to the LCD display?",
+            "options": [
+                "LED",
+                "TFT",
+                "CRT",
+                "All of the Above"
+            ],
+            "correctIndex": 1,
+            "explanation": "TFT (Thin Film Transistor) is another name for LCD display technology."
+        },
+        {
+            "id": 33,
+            "question": "Which of the following are hardware components of the computer system? [UPPSC 2025]",
+            "options": [
+                "Graphic Card",
+                "CPU",
+                "Keyboard",
+                "All of the Above"
+            ],
+            "correctIndex": 3,
+            "explanation": "Graphic Card, CPU, and Keyboard are all hardware components."
+        },
+        {
+            "id": 34,
+            "question": "Which of the following are software analysis and design tools? [UPPSC 2025]",
+            "options": [
+                "Data Flow Diagrams",
+                "ER Diagrams",
+                "HIPO Diagrams",
+                "All of the Above"
+            ],
+            "correctIndex": 3,
+            "explanation": "DFD, ER Diagrams, and HIPO Diagrams are all software analysis and design tools."
+        },
+        {
+            "id": 35,
+            "question": "Which graph determines deadlock situation occurrence? [SSC 2024]",
+            "options": [
+                "Starvation Graph",
+                "Resource Allocation Graph",
+                "Inversion Graph",
+                "All of the Above"
+            ],
+            "correctIndex": 1,
+            "explanation": "Resource Allocation Graph is used to determine deadlock situations."
+        },
+        {
+            "id": 36,
+            "question": "Which of the following is a Vector Graphics Editor?",
+            "options": [
+                "Sunbird",
+                "CAD",
+                "Adobe Photoshop",
+                "Corel Draw"
+            ],
+            "correctIndex": 3,
+            "explanation": "Corel Draw is a Vector Graphics Editor."
+        },
+        {
+            "id": 37,
+            "question": "What is the name given to any software included with new computer or hardware?",
+            "options": [
+                "Bundled Software",
+                "Pre-installed Software",
+                "Both a and b",
+                "Free Software"
+            ],
+            "correctIndex": 2,
+            "explanation": "Software included with new computer/hardware is called both Bundled and Pre-installed Software."
+        },
+        {
+            "id": 38,
+            "question": "Who invented the FORTRAN language? [UPPSC 2024]",
+            "options": [
+                "J.W.Backus",
+                "Steff Warner",
+                "Von Neuman",
+                "All of the Above"
+            ],
+            "correctIndex": 0,
+            "explanation": "J.W. Backus invented the FORTRAN programming language."
+        },
+        {
+            "id": 39,
+            "question": "Which of the following are objects in Microsoft Access? [UPPSC 2024]",
+            "options": [
+                "Tables",
+                "Queries",
+                "Reports",
+                "All of the Above"
+            ],
+            "correctIndex": 3,
+            "explanation": "Tables, Queries, and Reports are all objects in Microsoft Access."
+        },
+        {
+            "id": 40,
+            "question": "What does ARPANET stand for? [UPPSC 2024]",
+            "options": [
+                "Advanced Research Projects Agency Network",
+                "American Research Protocol Agency Network",
+                "Automated Resource Processing Agency Network",
+                "Advanced Routing Protocol Agency Network"
+            ],
+            "correctIndex": 0,
+            "explanation": "ARPANET stands for Advanced Research Projects Agency Network."
+        },
+        {
+            "id": 41,
+            "question": "C is what kind of language? [UPPSC 2024]",
+            "options": [
+                "An assembly language",
+                "A third generation high level language",
+                "A machine language",
+                "Future language"
+            ],
+            "correctIndex": 1,
+            "explanation": "C is a third generation high level programming language."
+        },
+        {
+            "id": 42,
+            "question": "From which year 5th generation of computers is considered?",
+            "options": [
+                "1970",
+                "1980",
+                "1990",
+                "2000"
+            ],
+            "correctIndex": 1,
+            "explanation": "5th generation of computers is considered from 1980 onwards."
+        },
+        {
+            "id": 43,
+            "question": "Computer Monitor is also known as: [Anna University 2024]",
+            "options": [
+                "DVU",
+                "UVD",
+                "VDU",
+                "CCTV"
+            ],
+            "correctIndex": 2,
+            "explanation": "Computer Monitor is also known as VDU (Visual Display Unit)."
+        },
+        {
+            "id": 44,
+            "question": "Arrange in ascending order: TB, KB, GB, MB [Anna University 2024]",
+            "options": [
+                "TB > MB > GB > KB",
+                "MB > GB > TB > KB",
+                "TB > GB > MB > KB",
+                "GB > MB > KB > TB"
+            ],
+            "correctIndex": 2,
+            "explanation": "Ascending order: KB < MB < GB < TB. So TB > GB > MB > KB."
+        },
+        {
+            "id": 45,
+            "question": "Which one of these stores more data than a DVD?",
+            "options": [
+                "CD Rom",
+                "Floppy",
+                "Blue Ray Disk",
+                "Red Ray Disk"
+            ],
+            "correctIndex": 2,
+            "explanation": "Blu-Ray Disk stores up to 50GB, much more than a DVD (4.7GB)."
+        },
+        {
+            "id": 46,
+            "question": "The output shown on the computer monitor is called",
+            "options": [
+                "VDU",
+                "Hard Copy",
+                "Soft Copy",
+                "Screen Copy"
+            ],
+            "correctIndex": 2,
+            "explanation": "Output displayed on the computer monitor is called Soft Copy."
+        },
+        {
+            "id": 47,
+            "question": "8 Bits make up 1 _____ [RRB Technician 2024]",
+            "options": [
+                "Byte",
+                "Megabyte",
+                "Kilobyte",
+                "None"
+            ],
+            "correctIndex": 0,
+            "explanation": "8 Bits = 1 Byte."
+        },
+        {
+            "id": 48,
+            "question": "Which one is the result of the output given by a computer? [RRB Technician 2024]",
+            "options": [
+                "Data",
+                "Instruction",
+                "Information",
+                "Excursion"
+            ],
+            "correctIndex": 2,
+            "explanation": "Information is the result of the output given by a computer after processing data."
+        },
+        {
+            "id": 49,
+            "question": "What is kind of CD-ROM? [RRB Technician 2024]",
+            "options": [
+                "Optical disk",
+                "Magnetic disk",
+                "Magneto Optical disk",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "CD-ROM is a type of Optical disk that uses laser technology to read data."
+        },
+        {
+            "id": 50,
+            "question": "Which is known as the most powerful type of computer?",
+            "options": [
+                "Super computer",
+                "Iframes",
+                "Mega Frames",
+                "Super Access"
+            ],
+            "correctIndex": 0,
+            "explanation": "Super computer is the most powerful type of computer."
+        },
+        {
+            "id": 51,
+            "question": "Which is NOT a function of a microprocessor? [SSC 2024]",
+            "options": [
+                "Controls the rest of the computer's components",
+                "Keeps the system unit cool",
+                "Interprets instructions given by software",
+                "Processing data"
+            ],
+            "correctIndex": 1,
+            "explanation": "Keeping the system unit cool is done by fans/cooling systems, not the microprocessor."
+        },
+        {
+            "id": 52,
+            "question": "In Power Point, the Header & Footer button can be found on the insert tab in what group? [SSC 2024]",
+            "options": [
+                "Illustrations group",
+                "Object group",
+                "Text group",
+                "Tables group"
+            ],
+            "correctIndex": 2,
+            "explanation": "The Header & Footer button is in the Text group on the Insert tab."
+        },
+        {
+            "id": 53,
+            "question": "Which of the following is not a type of primary storage? [SSC 2024]",
+            "options": [
+                "RAM",
+                "ROM",
+                "Static RAM",
+                "All are primary storage devices"
+            ],
+            "correctIndex": 3,
+            "explanation": "RAM, ROM, and Static RAM are all types of primary storage."
+        },
+        {
+            "id": 54,
+            "question": "www stands for? [SSC 2024]",
+            "options": [
+                "world wide web",
+                "world wide work",
+                "web wide world",
+                "wide world web"
+            ],
+            "correctIndex": 0,
+            "explanation": "www stands for World Wide Web."
+        },
+        {
+            "id": 55,
+            "question": "Which of the following are components of CPU? [SSC 2024]",
+            "options": [
+                "Arithmetic Logic unit, Mouse",
+                "Arithmetic Logic unit, Control unit",
+                "Arithmetic logic unit, Integrated circuits",
+                "Control unit, SMPS"
+            ],
+            "correctIndex": 1,
+            "explanation": "CPU components are Arithmetic Logic Unit (ALU) and Control Unit."
+        },
+        {
+            "id": 56,
+            "question": "What is the name of a device that converts digital signals to analog signals? [SSC 2024]",
+            "options": [
+                "Router",
+                "Switch",
+                "Modem",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "A Modem (Modulator-Demodulator) converts digital signals to analog and vice versa."
+        },
+        {
+            "id": 57,
+            "question": "Where is RAM located? [SSC 2024]",
+            "options": [
+                "Expansion Board",
+                "External Drive",
+                "Mother Board",
+                "All of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "RAM is located on the Motherboard."
+        },
+        {
+            "id": 58,
+            "question": "Charles Babbage designed the first mechanical computer named [SSC 2024]",
+            "options": [
+                "Analytical Engine",
+                "Processor",
+                "Comp Engine",
+                "Abacus"
+            ],
+            "correctIndex": 0,
+            "explanation": "Charles Babbage designed the Analytical Engine, the first mechanical computer."
+        },
+        {
+            "id": 59,
+            "question": "If a computer provides database services to others, then it will be known as? [RRB Technician 2024]",
+            "options": [
+                "web server",
+                "Application server",
+                "Database server",
+                "FTP server"
+            ],
+            "correctIndex": 2,
+            "explanation": "A computer providing database services is called a Database server."
+        },
+        {
+            "id": 60,
+            "question": "Full form of URL is? [RRB Technician 2024]",
+            "options": [
+                "Uniform Resource Locator",
+                "Universal Resource Link",
+                "Unified Resource Locator",
+                "Universal Reference Locator"
+            ],
+            "correctIndex": 0,
+            "explanation": "URL stands for Uniform Resource Locator."
+        },
+        {
+            "id": 61,
+            "question": "An Assembler is used to translate a program written in?",
+            "options": [
+                "Low-Level language",
+                "Machine Language",
+                "Assembly Language",
+                "High Level Language"
+            ],
+            "correctIndex": 2,
+            "explanation": "An Assembler translates programs written in Assembly Language to machine code."
+        },
+        {
+            "id": 62,
+            "question": "Technology used to provide internet by transmitting data over wires of telephone network is? [SSC 2023]",
+            "options": [
+                "Transmitter",
+                "Diodes",
+                "GPS",
+                "DSL"
+            ],
+            "correctIndex": 3,
+            "explanation": "DSL (Digital Subscriber Line) provides internet over telephone network wires."
+        },
+        {
+            "id": 63,
+            "question": "Which level language is Assembly Language? [SSC 2023]",
+            "options": [
+                "High-level programming language",
+                "Medium level programming language",
+                "Low-level programming language",
+                "Machine language"
+            ],
+            "correctIndex": 2,
+            "explanation": "Assembly Language is a Low-level programming language."
+        },
+        {
+            "id": 64,
+            "question": "Documents, Movies, images and photographs etc are stored at a? [SSC 2023]",
+            "options": [
+                "Application server",
+                "Web server",
+                "Print server",
+                "File server"
+            ],
+            "correctIndex": 3,
+            "explanation": "Documents, movies, images are stored on a File server."
+        },
+        {
+            "id": 65,
+            "question": "Which of the following is used in RAM? [SSC 2023]",
+            "options": [
+                "Conductor",
+                "Semi Conductor",
+                "Vacuum Tubes",
+                "Transistor"
+            ],
+            "correctIndex": 1,
+            "explanation": "Semi Conductors are used in modern RAM chips."
+        },
+        {
+            "id": 66,
+            "question": "What is the full form of GUI in terms of computers? [SSC 2023]",
+            "options": [
+                "Graphical user instrument",
+                "Graphical unified interface",
+                "Graphical unified instrument",
+                "Graphical user interface"
+            ],
+            "correctIndex": 3,
+            "explanation": "GUI stands for Graphical User Interface."
+        },
+        {
+            "id": 67,
+            "question": "What is the full form of ALU? [SSC 2023]",
+            "options": [
+                "Arithmetic Logic unit",
+                "Automated Logic unit",
+                "Advanced Logic unit",
+                "Arithmetic Linear unit"
+            ],
+            "correctIndex": 0,
+            "explanation": "ALU stands for Arithmetic Logic Unit."
+        },
+        {
+            "id": 68,
+            "question": "Who was the father of internet? [SSC 2023]",
+            "options": [
+                "Vint Cerf",
+                "Tim Berners-Lee",
+                "Charles Babbage",
+                "Bill Gates"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vint Cerf is known as the father of the internet."
+        },
+        {
+            "id": 69,
+            "question": "Verification is process of? [SSC 2023]",
+            "options": [
+                "Access",
+                "Login",
+                "Logout",
+                "Authentication"
+            ],
+            "correctIndex": 3,
+            "explanation": "Verification is the process of authentication."
+        },
+        {
+            "id": 70,
+            "question": "What is LINUX? [SSC 2023]",
+            "options": [
+                "Malware",
+                "Operating system",
+                "Application program",
+                "Firmware"
+            ],
+            "correctIndex": 1,
+            "explanation": "LINUX is an open-source Operating System."
+        },
+        {
+            "id": 71,
+            "question": "Which among following is an image name extension?",
+            "options": [
+                ".gif",
+                ".docx",
+                ".ppt",
+                ".lib"
+            ],
+            "correctIndex": 0,
+            "explanation": ".gif is an image file extension (Graphics Interchange Format)."
+        },
+        {
+            "id": 72,
+            "question": "Which is most common language used in web designing?",
+            "options": [
+                "C",
+                "C++",
+                "PHP",
+                "HTML"
+            ],
+            "correctIndex": 3,
+            "explanation": "HTML (HyperText Markup Language) is the most common language for web designing."
+        },
+        {
+            "id": 73,
+            "question": "Who is also known as father of computer? [RRB Group D 2022]",
+            "options": [
+                "Charles Babbage",
+                "Alan Turing",
+                "Bill Gates",
+                "Steve Jobs"
+            ],
+            "correctIndex": 0,
+            "explanation": "Charles Babbage is known as the father of computers."
+        },
+        {
+            "id": 74,
+            "question": "Which language is commonly used in Android applications? [RRB Group D 2022]",
+            "options": [
+                "C",
+                "PHP",
+                "C++",
+                "Java"
+            ],
+            "correctIndex": 3,
+            "explanation": "Java is the most commonly used language in Android applications."
+        },
+        {
+            "id": 75,
+            "question": "What is the full form of HTTP? [RRB Group D 2022]",
+            "options": [
+                "Hyper Text Transfer Protocol",
+                "High Text Transfer Protocol",
+                "Hyper Text Transmission Protocol",
+                "High Text Transmission Protocol"
+            ],
+            "correctIndex": 0,
+            "explanation": "HTTP stands for Hyper Text Transfer Protocol."
+        },
+        {
+            "id": 76,
+            "question": "Which among the following is odd? [RRB Group D 2022]",
+            "options": [
+                "CD/DVD",
+                "Floppy Disks",
+                "SD Disk",
+                "BIOS"
+            ],
+            "correctIndex": 3,
+            "explanation": "BIOS is firmware, not a storage device like the others."
+        },
+        {
+            "id": 77,
+            "question": "Which operations are performed by RAM? [RRB Group D 2022]",
+            "options": [
+                "Read",
+                "Write",
+                "Read and write",
+                "Depends on computer"
+            ],
+            "correctIndex": 2,
+            "explanation": "RAM performs both Read and Write operations."
+        },
+        {
+            "id": 78,
+            "question": "Which is responsible for specifying address of a memory location? [RRB Group D 2022]",
+            "options": [
+                "RAM",
+                "Address Bus",
+                "Control Bus",
+                "Hard Disk"
+            ],
+            "correctIndex": 1,
+            "explanation": "Address Bus is responsible for specifying the address of a memory location."
+        },
+        {
+            "id": 79,
+            "question": "Which is responsible for finding and loading operating system into RAM? [RRB Group D 2022]",
+            "options": [
+                "Bootstrap loader",
+                "CMOS",
+                "BIOS",
+                "DMOS"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bootstrap loader is responsible for loading the operating system into RAM."
+        },
+        {
+            "id": 80,
+            "question": "What is the full form of RAM? [RRB Group D 2022]",
+            "options": [
+                "Random Access Memory",
+                "Read Access Memory",
+                "Rapid Access Memory",
+                "Random Available Memory"
+            ],
+            "correctIndex": 0,
+            "explanation": "RAM stands for Random Access Memory."
+        },
+        {
+            "id": 81,
+            "question": "What is the full form of TIFF? [RRB Group D 2022]",
+            "options": [
+                "Tagged Image File Format",
+                "Text Image File Format",
+                "Tagged Information File Format",
+                "Total Image File Format"
+            ],
+            "correctIndex": 0,
+            "explanation": "TIFF stands for Tagged Image File Format."
+        },
+        {
+            "id": 82,
+            "question": "Computer resolution measures?",
+            "options": [
+                "Size of screen",
+                "Shape of screen",
+                "Number of Pixels",
+                "Number of colours it supports"
+            ],
+            "correctIndex": 2,
+            "explanation": "Computer resolution is measured by the number of pixels displayed on screen."
+        },
+        {
+            "id": 83,
+            "question": "Which are the main parts of central processing unit?",
+            "options": [
+                "Control unit and Arithmetic Logic Unit",
+                "SMTP and BIOS",
+                "USB ports",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "The main parts of CPU are Control Unit and Arithmetic Logic Unit (ALU)."
+        },
+        {
+            "id": 84,
+            "question": "Who is known as father of Artificial Intelligence? [UPSC 2022]",
+            "options": [
+                "John McCarthy",
+                "Vint Cerf",
+                "Dennis Ritchie",
+                "James Gosling"
+            ],
+            "correctIndex": 0,
+            "explanation": "John McCarthy is known as the father of Artificial Intelligence."
+        },
+        {
+            "id": 85,
+            "question": "USB is which type of storage device? [UPSC 2022]",
+            "options": [
+                "Primary",
+                "Secondary",
+                "Tertiary",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "USB is a Tertiary type of storage device."
+        },
+        {
+            "id": 86,
+            "question": "Which program is run by BIOS to check hardware components when computer starts? [UPSC 2022]",
+            "options": [
+                "DMOS",
+                "POST",
+                "CMOS",
+                "RIP"
+            ],
+            "correctIndex": 1,
+            "explanation": "POST (Power-On Self-Test) is run by BIOS to check hardware at startup."
+        },
+        {
+            "id": 87,
+            "question": "ROM is non volatile - True or False? [UPSC 2022]",
+            "options": [
+                "True",
+                "False",
+                "Partially true",
+                "Depends on type"
+            ],
+            "correctIndex": 0,
+            "explanation": "ROM (Read Only Memory) is non-volatile, meaning it retains data even when power is off."
+        },
+        {
+            "id": 88,
+            "question": "What is full form of CMOS? [UPSC 2022]",
+            "options": [
+                "Complementary Metal Oxide Semiconductor",
+                "Central Metal Oxide System",
+                "Complementary Machine Operating System",
+                "Central Machine Oxide Semiconductor"
+            ],
+            "correctIndex": 0,
+            "explanation": "CMOS stands for Complementary Metal Oxide Semiconductor."
+        },
+        {
+            "id": 89,
+            "question": "Second generation of computers consist of? [UPSC 2022]",
+            "options": [
+                "Vacuum Tubes",
+                "Diodes",
+                "VLSI Microprocessor",
+                "Transistors"
+            ],
+            "correctIndex": 3,
+            "explanation": "Second generation computers used Transistors (1956-1963)."
+        },
+        {
+            "id": 90,
+            "question": "MPG is a file extension of which type of files? [UPSC 2022]",
+            "options": [
+                "Audio",
+                "Image",
+                "Video",
+                "Flash"
+            ],
+            "correctIndex": 2,
+            "explanation": "MPG is a Video file extension (MPEG format)."
+        },
+        {
+            "id": 91,
+            "question": "What is the full form of SMPS? [UPSC 2022]",
+            "options": [
+                "Switch Mode Power Supply",
+                "System Mode Power Supply",
+                "Standard Mode Power System",
+                "Switch Machine Power Supply"
+            ],
+            "correctIndex": 0,
+            "explanation": "SMPS stands for Switch Mode Power Supply."
+        },
+        {
+            "id": 92,
+            "question": "Who invented Java? [UPSC 2022]",
+            "options": [
+                "James Gosling",
+                "Dennis Ritchie",
+                "Bjarne Stroustrup",
+                "Guido van Rossum"
+            ],
+            "correctIndex": 0,
+            "explanation": "James Gosling invented the Java programming language."
+        },
+        {
+            "id": 93,
+            "question": "Which operating system is developed by Apple?",
+            "options": [
+                "Linux",
+                "Windows",
+                "Mac OS",
+                "DOS"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mac OS (macOS) is the operating system developed by Apple."
+        },
+        {
+            "id": 94,
+            "question": "Where is BIOS stored? [SSC CGL 2022]",
+            "options": [
+                "Hard Disk",
+                "RAM",
+                "Flash Memory Chip",
+                "Any of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "BIOS is stored in a Flash Memory Chip on the motherboard."
+        },
+        {
+            "id": 95,
+            "question": "What is the full form of EXIF? [SSC CGL 2022]",
+            "options": [
+                "Exchangeable image file format",
+                "Extended image file format",
+                "External image file format",
+                "Executable image file format"
+            ],
+            "correctIndex": 0,
+            "explanation": "EXIF stands for Exchangeable Image File Format."
+        },
+        {
+            "id": 96,
+            "question": "BIOS is used for? [SSC CGL 2022]",
+            "options": [
+                "Updating system information on network",
+                "Loading operating system",
+                "It helps in routing",
+                "Takes inputs from keyboard"
+            ],
+            "correctIndex": 1,
+            "explanation": "BIOS is primarily used for loading the operating system."
+        },
+        {
+            "id": 97,
+            "question": "1 mega byte is equal to [SSC CGL 2022]",
+            "options": [
+                "1024 Bytes",
+                "1024 kilo Bytes",
+                "1024 Giga Bits",
+                "1024 Bits"
+            ],
+            "correctIndex": 1,
+            "explanation": "1 Megabyte = 1024 Kilobytes."
+        },
+        {
+            "id": 98,
+            "question": "An electronic path that sends signals from one part of computer to another is? [SSC CGL 2022]",
+            "options": [
+                "Logic Gate",
+                "Modem",
+                "Bus",
+                "Serial Port"
+            ],
+            "correctIndex": 2,
+            "explanation": "A Bus is an electronic path that sends signals between components of a computer."
+        },
+        {
+            "id": 99,
+            "question": "Which is odd one? [SSC CGL 2022]",
+            "options": [
+                "RAM",
+                "ROM",
+                "Cache",
+                "Hard Disk"
+            ],
+            "correctIndex": 3,
+            "explanation": "Hard Disk is secondary storage while RAM, ROM, and Cache are primary memory."
+        },
+        {
+            "id": 100,
+            "question": "Which device is used for sending digital data over a phone line? [SSC CGL 2022]",
+            "options": [
+                "USB",
+                "Scanner",
+                "Printer",
+                "Modem"
+            ],
+            "correctIndex": 3,
+            "explanation": "Modem is used for sending digital data over a phone line."
+        }
+    ]
+}

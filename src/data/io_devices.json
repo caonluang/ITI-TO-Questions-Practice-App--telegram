@@ -1,0 +1,1240 @@
+{
+    "topic": "Input/Output Devices & Hardware / इनपुट-आउटपुट डिवाइसेस",
+    "questions": [
+        {
+            "id": 1,
+            "question": "The three main parts of the processor are _______/प्रोसेसर के तीन मुख्य भाग क्या हैं? [SBI Clerk, 2012]",
+            "options": [
+                "ALU, Control Unit and Registers",
+                "ALU, Control Unit and RAM",
+                "Cache, Control Unit and Registers",
+                "Control Unit, Registers and RAM"
+            ],
+            "correctIndex": 0,
+            "explanation": "A processor consists of ALU (Arithmetic Logic Unit), Control Unit, and Registers."
+        },
+        {
+            "id": 2,
+            "question": "Which printer cannot print more than one character at a time?/कौन सा प्रिंटर एक बार में एक से अधिक वर्ण प्रिंट नहीं कर सकता? [SBI Clerk 2012]",
+            "options": [
+                "Line",
+                "Daisy-wheel",
+                "Laser",
+                "Dot-matrix"
+            ],
+            "correctIndex": 1,
+            "explanation": "Daisy-wheel printer prints one character at a time using a wheel with characters on its petals."
+        },
+        {
+            "id": 3,
+            "question": "Which of the following does not relate to Input Unit?/निम्न में से कौन इनपुट यूनिट से संबंधित नहीं है? [SSC CHSL 2012]",
+            "options": [
+                "It accepts data from the outside world.",
+                "It converts data into binary code that is understandable by the computer.",
+                "It converts binary data into the human readable form that is understandable to the users.",
+                "It sends data in binary form to the computer for further processing."
+            ],
+            "correctIndex": 2,
+            "explanation": "Converting binary data into human readable form is the function of the Output Unit, not the Input Unit."
+        },
+        {
+            "id": 4,
+            "question": "________ key is the example of Toggle key./_______ कुंजी टॉगल कुंजी का उदाहरण है। [IBPS Clerk 2012]",
+            "options": [
+                "Alt",
+                "Shift",
+                "Control",
+                "Escape",
+                "Caps Lock"
+            ],
+            "correctIndex": 4,
+            "explanation": "Caps Lock is a toggle key because it switches between two states (ON/OFF) each time it is pressed."
+        },
+        {
+            "id": 5,
+            "question": "Video controller/वीडियो नियंत्रक क्या करता है? [IBPS Clerk 2012]",
+            "options": [
+                "Controls the resolution of images on screen",
+                "Controls the signals to be sent and received from processor for display",
+                "Handles the entire electronic work behind the formation of images on the screen",
+                "Is responsible for allocating pixels for formation of images",
+                "Is responsible for the refresh rate of the screen / monitor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Video controller handles the entire electronic work behind the formation of images on the screen."
+        },
+        {
+            "id": 6,
+            "question": "Which of these is a point-and-draw device?/इनमें से कौन सा पॉइंट-एंड-ड्रॉ डिवाइस है? [IBPS PO 2012]",
+            "options": [
+                "Mouse",
+                "Scanner",
+                "Printer",
+                "CD-ROM",
+                "Keyboard"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mouse is a point-and-draw device used to point at items and draw in applications."
+        },
+        {
+            "id": 7,
+            "question": "When a key is pressed on the keyboard, which standard is used for converting the keystroke into the corresponding bits? [IBPS PO 2013]",
+            "options": [
+                "ANSI",
+                "ASCII",
+                "EBCDIC",
+                "ISO",
+                "None of the above"
+            ],
+            "correctIndex": 0,
+            "explanation": "ANSI (American National Standards Institute) standard is used for converting keystrokes into corresponding bits."
+        },
+        {
+            "id": 8,
+            "question": "_______ devices convert human-understandable data and programs into a form that the computer can process. [SBI PO 2013]",
+            "options": [
+                "Printing",
+                "Output",
+                "Solid State",
+                "Input"
+            ],
+            "correctIndex": 3,
+            "explanation": "Input devices convert human-understandable data into a form the computer can process."
+        },
+        {
+            "id": 9,
+            "question": "The CPU comprises of Control, Memory, and ____ units./CPU में कंट्रोल, मेमोरी और ___ यूनिट्स होते हैं। [SBI PO 2013]",
+            "options": [
+                "Microprocessor",
+                "Arithmetic/Logic",
+                "Output",
+                "ROM",
+                "Input"
+            ],
+            "correctIndex": 1,
+            "explanation": "CPU comprises of Control Unit, Memory Unit, and Arithmetic/Logic Unit (ALU)."
+        },
+        {
+            "id": 10,
+            "question": "A joystick is primarily used to/for ___________./जॉयस्टिक का प्राथमिक उपयोग क्या है? [SBI PO 2013]",
+            "options": [
+                "Control sound on the screen",
+                "Computer gaming",
+                "Enter text",
+                "Draw pictures",
+                "Print text"
+            ],
+            "correctIndex": 1,
+            "explanation": "A joystick is primarily used for computer gaming to control game characters and movements."
+        },
+        {
+            "id": 11,
+            "question": "Which part of the computer displays the work done?/कंप्यूटर का कौन सा भाग किए गए कार्य को प्रदर्शित करता है? [SBI Clerk 2009]",
+            "options": [
+                "RAM",
+                "Printer",
+                "Monitor",
+                "ROM"
+            ],
+            "correctIndex": 2,
+            "explanation": "Monitor is the display device that shows the work done on a computer."
+        },
+        {
+            "id": 12,
+            "question": "For seeing the output, you use––––––/आउटपुट देखने के लिए आप क्या उपयोग करते हैं? [SBI Clerk 2009]",
+            "options": [
+                "Monitor",
+                "Keyboard",
+                "Mouse",
+                "Scanner",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "Monitor is an output device used for seeing/viewing the output."
+        },
+        {
+            "id": 13,
+            "question": "A scanner scans––––––/स्कैनर क्या स्कैन करता है? [SBI Clerk 2009]",
+            "options": [
+                "Pictures",
+                "Text",
+                "Both Pictures and Text",
+                "Neither Pictures nor Text"
+            ],
+            "correctIndex": 2,
+            "explanation": "A scanner can scan both pictures and text, converting them to digital format."
+        },
+        {
+            "id": 14,
+            "question": "Which of the following is not an input device?/निम्न में से कौन इनपुट डिवाइस नहीं है? [SBI Clerk 2009]",
+            "options": [
+                "Keyboard",
+                "Monitor",
+                "Joystick",
+                "Microphone",
+                "None of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "Monitor is an output device, not an input device."
+        },
+        {
+            "id": 15,
+            "question": "Back up of the data files will help to prevent ——/डेटा फाइल्स का बैकअप क्या रोकने में मदद करता है? [SBI Clerk 2009]",
+            "options": [
+                "Loss of confidentiality",
+                "Duplication of data",
+                "Virus infection",
+                "Loss of data"
+            ],
+            "correctIndex": 3,
+            "explanation": "Backup of data files helps prevent loss of data in case of system failure or accidental deletion."
+        },
+        {
+            "id": 16,
+            "question": "Which is the part of the computer system that one can physically touch?/कंप्यूटर सिस्टम का कौन सा भाग जिसे हम शारीरिक रूप से छू सकते हैं? [SBI Clerk 2009]",
+            "options": [
+                "Hardware",
+                "Software",
+                "Data",
+                "Program"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hardware refers to the physical components of a computer that can be touched."
+        },
+        {
+            "id": 17,
+            "question": "— is processed by the computer into information./— कंप्यूटर द्वारा सूचना में संसाधित किया जाता है। [SBI Clerk 2009]",
+            "options": [
+                "Data",
+                "Information",
+                "Program",
+                "Software"
+            ],
+            "correctIndex": 0,
+            "explanation": "Data is the raw input that is processed by the computer into meaningful information."
+        },
+        {
+            "id": 18,
+            "question": "To access properties of an object, the mouse technique to use is––./ऑब्जेक्ट की प्रॉपर्टीज तक पहुंचने के लिए किस तकनीक का उपयोग किया जाता है? [SBI Clerk 2009]",
+            "options": [
+                "Right-clicking",
+                "Shift-clicking",
+                "Dragging",
+                "Dropping"
+            ],
+            "correctIndex": 0,
+            "explanation": "Right-clicking on an object opens a context menu that provides access to its properties."
+        },
+        {
+            "id": 19,
+            "question": "A ––– can make it easier to play games./गेम खेलने को आसान बनाने के लिए एक ––– क्या हो सकता है? [SBI Clerk 2009]",
+            "options": [
+                "Mouse",
+                "Joystick",
+                "Keyboard",
+                "Pen"
+            ],
+            "correctIndex": 1,
+            "explanation": "A joystick is designed to make it easier to play computer games."
+        },
+        {
+            "id": 20,
+            "question": "Codes consisting of lines of varying widths or lengths that are computer-readable are known as/ऐसे कोड जो विभिन्न चौड़ाई या लंबाई की लाइनों से बने होते हैं और कंप्यूटर द्वारा पढे जा सकते हैं? [IBPS PO 2011]",
+            "options": [
+                "An ASCII code",
+                "A magnetic tape",
+                "A bar code",
+                "An OCR scanner"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bar codes consist of lines of varying widths that are computer-readable and used for product identification."
+        },
+        {
+            "id": 21,
+            "question": "Any data or instruction entered into the memory of a computer is considered as/कंप्यूटर की मेमोरी में दर्ज कोई भी डेटा या निर्देश किस रूप में माना जाता है? [SBI Clerk 2009]",
+            "options": [
+                "Storage",
+                "Output",
+                "Input",
+                "Information"
+            ],
+            "correctIndex": 2,
+            "explanation": "Any data or instruction entered into the memory of a computer is considered as input."
+        },
+        {
+            "id": 22,
+            "question": "Video processors consist of_____ and_____ which store and process images./वीडियो प्रोसेसर में कौन-कौन से होते हैं जो छवियों को स्टोर और प्रोसेस करते हैं? [IBPS PO 2011]",
+            "options": [
+                "CPU and VGA",
+                "CPU and memory",
+                "VGA and memory",
+                "VGI and DVI"
+            ],
+            "correctIndex": 3,
+            "explanation": "Video processors consist of VGI (Video Graphics Interface) and DVI (Digital Visual Interface) which store and process images."
+        },
+        {
+            "id": 23,
+            "question": "A keyboard is this kind of device/कीबोर्ड किस प्रकार का उपकरण है? [SBI Clerk 2009]",
+            "options": [
+                "Input",
+                "Output",
+                "Processing",
+                "Storage"
+            ],
+            "correctIndex": 0,
+            "explanation": "A keyboard is an input device used for entering data and commands into the computer."
+        },
+        {
+            "id": 24,
+            "question": "Arithmetic operations/अंकगणितीय क्रियाएं [SBI Clerk 2009]",
+            "options": [
+                "Involve matching one data item to another to determine if the first item is greater than, equal to, or less than the other item",
+                "Sort data items according to standard, predefined criteria in ascending order or descending order",
+                "Use conditions with operators such as AND, OR and NOT",
+                "Include addition, subtraction, multiplication, and division"
+            ],
+            "correctIndex": 3,
+            "explanation": "Arithmetic operations include basic mathematical operations: addition, subtraction, multiplication, and division."
+        },
+        {
+            "id": 25,
+            "question": "A series of instructions that tells a computer what to do and how to do it is called a/अनुदेशों की वह श्रृंखला जो कंप्यूटर को क्या करना है और कैसे करना है बताती है? [SBI Clerk 2009]",
+            "options": [
+                "Program",
+                "Data",
+                "Information",
+                "Hardware"
+            ],
+            "correctIndex": 0,
+            "explanation": "A program is a series of instructions that tells a computer what to do and how to do it."
+        },
+        {
+            "id": 26,
+            "question": "The main system board of a computer is called the/कंप्यूटर का मुख्य सिस्टम बोर्ड क्या कहलाता है? [IBPS Clerk 2011]",
+            "options": [
+                "Motherboard",
+                "CPU",
+                "RAM",
+                "Hard Disk"
+            ],
+            "correctIndex": 0,
+            "explanation": "The main system board of a computer is called the Motherboard."
+        },
+        {
+            "id": 27,
+            "question": "Which of the following groups consist of only output devices?/निम्न में से कौन सा समूह केवल आउटपुट डिवाइसेस का है? [SBI Clerk 2009]",
+            "options": [
+                "Scanner, Printer, Monitor",
+                "Keyboard, Printer, Monitor",
+                "Mouse, Printer, Monitor",
+                "Plotter, Printer, Monitor",
+                "None of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "Plotter, Printer, and Monitor are all output devices. Scanner, Keyboard, and Mouse are input devices."
+        },
+        {
+            "id": 28,
+            "question": "Why is the Caps Lock key referred to as a toggle key?/कैप्स लॉक की कुंजी को टॉगल कुंजी क्यों कहा जाता है? [IBPS 2011]",
+            "options": [
+                "Because its function goes back and forth every time it is pressed",
+                "Because it locks the keyboard",
+                "Because it toggles between applications",
+                "Because it changes screen resolution"
+            ],
+            "correctIndex": 0,
+            "explanation": "Caps Lock is called a toggle key because its function goes back and forth (ON/OFF) every time it is pressed."
+        },
+        {
+            "id": 29,
+            "question": "Using output devices one can/आउटपुट डिवाइसेस का उपयोग करके कोई क्या कर सकता है? [IBPS Clerk 2011]",
+            "options": [
+                "Input data",
+                "Store data",
+                "Scan data",
+                "View or print data",
+                "None of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "Output devices like monitors and printers are used to view or print data."
+        },
+        {
+            "id": 30,
+            "question": "Which of the following categories would include a keyboard?/कीबोर्ड किस वर्ग में शामिल होगा? [IBPS Clerk 2011]",
+            "options": [
+                "Printing Device",
+                "Output Device",
+                "Pointing Device",
+                "Storage Device",
+                "Input Device"
+            ],
+            "correctIndex": 4,
+            "explanation": "A keyboard is classified as an Input Device."
+        },
+        {
+            "id": 31,
+            "question": "What type of keys are 'ctrl' and 'shift'?/'ctrl' और 'shift' किस प्रकार की कुंजी हैं? [IBPS Clerk 2011]",
+            "options": [
+                "adjustment",
+                "function",
+                "modifier",
+                "alphanumeric"
+            ],
+            "correctIndex": 2,
+            "explanation": "Ctrl and Shift are modifier keys because they modify the function of other keys when pressed together."
+        },
+        {
+            "id": 32,
+            "question": "The term _________ refers to data storage systems that make it possible for a computer or electronic device to store and retrieve data. [SBI Clerk 2011]",
+            "options": [
+                "retrieval technology",
+                "input technology",
+                "output technology",
+                "storage technology"
+            ],
+            "correctIndex": 3,
+            "explanation": "Storage technology refers to data storage systems that enable storing and retrieving data."
+        },
+        {
+            "id": 33,
+            "question": "The term _________ refers to any computer component that is required to perform work. [SBI Clerk 2011]",
+            "options": [
+                "bootstrap",
+                "kernel",
+                "resource",
+                "source code"
+            ],
+            "correctIndex": 2,
+            "explanation": "A resource refers to any computer component required to perform work."
+        },
+        {
+            "id": 34,
+            "question": "The ________ is responsible for performing calculations and contains decision-making mechanisms. [SBI Clerk 2011]",
+            "options": [
+                "Central Processing Unit",
+                "Memory Unit",
+                "Arithmetic and Logic Unit",
+                "Output Unit",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "The ALU (Arithmetic and Logic Unit) is responsible for performing calculations and contains decision-making mechanisms."
+        },
+        {
+            "id": 35,
+            "question": "You use a (n) ________, such as a keyboard or mouse, to input information. [SBI Clerk 2011]",
+            "options": [
+                "storage device",
+                "processing device",
+                "input device",
+                "output device",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "An input device, such as a keyboard or mouse, is used to input information into a computer."
+        },
+        {
+            "id": 36,
+            "question": "What is output?/आउटपुट क्या है? [SBI Clerk 2011]",
+            "options": [
+                "What the processor takes from the user",
+                "What the user gives to the processor",
+                "What the processor gets from the user",
+                "What the processor gives to the user"
+            ],
+            "correctIndex": 3,
+            "explanation": "Output is what the processor gives to the user after processing the input data."
+        },
+        {
+            "id": 37,
+            "question": "Computer_________ is whatever is typed, submitted, or transmitted to a computer system. [SBI Clerk 2011]",
+            "options": [
+                "input",
+                "output",
+                "data",
+                "circuitry",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "Computer input is whatever is typed, submitted, or transmitted to a computer system."
+        },
+        {
+            "id": 38,
+            "question": "Which process checks to ensure the components of the computer are operating and connected properly? [SBI Clerk 2011]",
+            "options": [
+                "Booting",
+                "Processing",
+                "Saving",
+                "Editing"
+            ],
+            "correctIndex": 0,
+            "explanation": "Booting is the process that checks to ensure all components of the computer are operating and connected properly."
+        },
+        {
+            "id": 39,
+            "question": "Ctrl, shift and alt are called _________ keys./Ctrl, Shift और Alt को क्या कहा जाता है? [SBI Clerk 2011]",
+            "options": [
+                "adjustment",
+                "function",
+                "modifier",
+                "alphanumeric"
+            ],
+            "correctIndex": 1,
+            "explanation": "As per SBI Clerk 2011, Ctrl, Shift and Alt are called function keys (Note: they are also commonly known as modifier keys)."
+        },
+        {
+            "id": 40,
+            "question": "Which keys enable the input of numbers quickly?/कौन से कीज नंबरों के त्वरित इनपुट की अनुमति देते हैं? [SBI 2011]",
+            "options": [
+                "ctrl, shift and alt",
+                "function keys",
+                "the numeric keypad",
+                "arrow keys"
+            ],
+            "correctIndex": 2,
+            "explanation": "The numeric keypad on the right side of the keyboard enables quick input of numbers."
+        },
+        {
+            "id": 41,
+            "question": "All the characters that a device can use is called its?/एक डिवाइस द्वारा उपयोग किए जा सकने वाले सभी वर्णों को क्या कहते हैं? [SBI Clerk 2012]",
+            "options": [
+                "Skill Set",
+                "Character Alphabet",
+                "Character Codes",
+                "Keyboard Characters"
+            ],
+            "correctIndex": 3,
+            "explanation": "All the characters that a device can use is called its Keyboard Characters."
+        },
+        {
+            "id": 42,
+            "question": "A printer is this kind of device/प्रिंटर किस प्रकार का उपकरण है? [SBI Clerk 2009]",
+            "options": [
+                "input",
+                "word processing",
+                "processing",
+                "output",
+                "None of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "A printer is an output device that produces hard copies of documents."
+        },
+        {
+            "id": 43,
+            "question": "Most of the commonly used personal computers/laptops do not have a command key known as ____. [SSC CGL]",
+            "options": [
+                "Turnover",
+                "Shift",
+                "Alter",
+                "Delete",
+                "Insert"
+            ],
+            "correctIndex": 0,
+            "explanation": "Turnover is not a standard key on personal computers/laptops."
+        },
+        {
+            "id": 44,
+            "question": "Most of the commonly available personal computers/laptops have a keyboard popularly known as ___. [SSC CHSL]",
+            "options": [
+                "QWERTY",
+                "QOLTY",
+                "ALTER",
+                "UCLIF"
+            ],
+            "correctIndex": 0,
+            "explanation": "QWERTY is the most popular keyboard layout named after the first six letters on the top row."
+        },
+        {
+            "id": 45,
+            "question": "Whenever we have to give space between the two words while typing on PC we have to press a key known as __________. [SSC MTS]",
+            "options": [
+                "Space Bar",
+                "Enter",
+                "Tab",
+                "Backspace"
+            ],
+            "correctIndex": 0,
+            "explanation": "Space Bar is the key used to create space between words while typing."
+        },
+        {
+            "id": 46,
+            "question": "Every component of your computer is either/आपके कंप्यूटर का प्रत्येक घटक या तो [SSC CPO]",
+            "options": [
+                "software or CPU/RAM",
+                "hardware or software",
+                "application software or system software",
+                "input devices or output devices",
+                "None of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "Every component of a computer is either hardware (physical) or software (logical)."
+        },
+        {
+            "id": 47,
+            "question": "What is equipment used to capture information and commands?/जानकारी और कमांड कैप्चर करने वाला उपकरण क्या है?",
+            "options": [
+                "Input device",
+                "Output device",
+                "Storage device",
+                "Processing device"
+            ],
+            "correctIndex": 0,
+            "explanation": "Input device is the equipment used to capture information and commands."
+        },
+        {
+            "id": 48,
+            "question": "This type of hardware consists of devices that translate data into a form the computer can process [IBPS PO]",
+            "options": [
+                "application",
+                "input",
+                "system",
+                "All of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "Input hardware devices translate data into a form the computer can process."
+        },
+        {
+            "id": 49,
+            "question": "Which of the following will translate images of text, drawings, and photos into digital form?/निम्न में से कौन इमेजेस को डिजिटल फॉर्म में बदल सकता है? [IBPS Clerk]",
+            "options": [
+                "digitizer",
+                "modem",
+                "scanner",
+                "keyboard",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "A scanner translates images of text, drawings, and photos into digital form."
+        },
+        {
+            "id": 50,
+            "question": "The computer is made of which of the following hardware equipments? [RRB]",
+            "options": [
+                "Monitor, CPU, Keyboard, Mouse, Software and Network",
+                "Monitor, CPU, Keyboard, Mouse, Programme and Network",
+                "Monitor, CPU, Keyboard, Mouse, Printer and Modem",
+                "Monitor, CPU, Keyboard, Mouse, Applications and Network",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "Monitor, CPU, Keyboard, Mouse, Printer and Modem are all hardware equipments."
+        },
+        {
+            "id": 51,
+            "question": "For selecting or highlighting, which of the following is generally used? [IBPS SO]",
+            "options": [
+                "Icon",
+                "Keyboard",
+                "Mouse",
+                "Floppy Disk",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mouse is generally used for selecting or highlighting items on screen."
+        },
+        {
+            "id": 52,
+            "question": "Scanner scans/स्कैनर क्या स्कैन करता है? [SBI PO 2012]",
+            "options": [
+                "Picture",
+                "Text",
+                "Both Picture and Text",
+                "Neither Picture Nor Text"
+            ],
+            "correctIndex": 2,
+            "explanation": "A scanner scans both pictures and text."
+        },
+        {
+            "id": 53,
+            "question": "Which of the following is not a function of the control unit?/निम्न में से कौन कंट्रोल यूनिट का कार्य नहीं है? [SBI 2012]",
+            "options": [
+                "Read instructions",
+                "Execute instructions",
+                "Interpret instructions",
+                "Direct operations"
+            ],
+            "correctIndex": 3,
+            "explanation": "Direct operations is not a primary function of the control unit. Its main functions are reading, executing and interpreting instructions."
+        },
+        {
+            "id": 54,
+            "question": "The most common input devices include –/सबसे आम इनपुट डिवाइसेस में क्या शामिल है? [SBI PO 2012]",
+            "options": [
+                "Monitor and keyboard",
+                "Monitor and mouse",
+                "Mouse and keyboard",
+                "Printer and mouse"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mouse and keyboard are the most common input devices."
+        },
+        {
+            "id": 55,
+            "question": "Holding the mouse button down while moving an object or text is known as –/माउस बटन दबाए रखते हुए किसी वस्तु को स्थानांतरित करना क्या कहलाता है? [SBI Clerk 2012]",
+            "options": [
+                "moving",
+                "dragging",
+                "dropping",
+                "highlighting",
+                "None of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dragging is the action of holding the mouse button down while moving an object or text."
+        },
+        {
+            "id": 56,
+            "question": "__________ helps in capturing raw data and entering into computer system. [RBI Assistant]",
+            "options": [
+                "Input device",
+                "Output device",
+                "Storage device",
+                "Processing device"
+            ],
+            "correctIndex": 0,
+            "explanation": "Input device helps in capturing raw data and entering it into the computer system."
+        },
+        {
+            "id": 57,
+            "question": "The most widely used input device is the _________./सबसे व्यापक रूप से उपयोग किया जाने वाला इनपुट डिवाइस कौन सा है? [NABARD]",
+            "options": [
+                "mouse",
+                "keyboard",
+                "modem",
+                "monitor"
+            ],
+            "correctIndex": 1,
+            "explanation": "The keyboard is the most widely used input device."
+        },
+        {
+            "id": 58,
+            "question": "A CPU contains __________/CPU में क्या होता है? [RRB NTPC]",
+            "options": [
+                "a card reader and a printing device",
+                "an analytical engine and a control unit",
+                "a control unit and an arithmetic logic unit",
+                "an arithmetic logic unit and a card reader",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "A CPU contains a Control Unit and an Arithmetic Logic Unit (ALU)."
+        },
+        {
+            "id": 59,
+            "question": "The system unit/सिस्टम यूनिट क्या है? [RRB JE]",
+            "options": [
+                "coordinates input and output devices",
+                "is the container that houses electronic components",
+                "is a combination of hardware and software",
+                "controls and manipulates data",
+                "does the arithmetic operations"
+            ],
+            "correctIndex": 2,
+            "explanation": "The system unit is a combination of hardware and software."
+        },
+        {
+            "id": 60,
+            "question": "The term used to define all input and output devices in a computer system is __________. [LIC AAO]",
+            "options": [
+                "Monitor",
+                "Software",
+                "Shared resources",
+                "Hardware"
+            ],
+            "correctIndex": 3,
+            "explanation": "Hardware is the term used to define all input and output devices in a computer system."
+        },
+        {
+            "id": 61,
+            "question": "What type of resource is most likely to be a shared common resource in a computer network? [FCI Manager]",
+            "options": [
+                "Printers",
+                "Speakers",
+                "Floppy disk drives",
+                "Keyboards",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "Printers are the most commonly shared resource in a computer network."
+        },
+        {
+            "id": 62,
+            "question": "Which of the following is part of the System Unit?/निम्न में से कौन सिस्टम यूनिट का हिस्सा है? [ISRO]",
+            "options": [
+                "Monitor",
+                "CPU",
+                "CD-ROM",
+                "Floppy Disk",
+                "None of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "CPU is part of the System Unit."
+        },
+        {
+            "id": 63,
+            "question": "What is output?/आउटपुट क्या है? [GATE]",
+            "options": [
+                "Processor takes from user",
+                "User gives to processor",
+                "Processor gets from user",
+                "None of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "Output is what the processor gives to the user (none of the listed options are correct as per GATE answer key)."
+        },
+        {
+            "id": 64,
+            "question": "Dumb terminals have terminals and __________./डम्ब टर्मिनल में टर्मिनल और __________ होते हैं। [UPSC Prelims]",
+            "options": [
+                "Mouse",
+                "Speaker",
+                "Harddisk",
+                "Mouse or Speaker"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dumb terminals have terminals and a Harddisk."
+        },
+        {
+            "id": 65,
+            "question": "Which of the following is not an output device?/निम्न में से कौन आउटपुट डिवाइस नहीं है? [DRDO CEPTAM]",
+            "options": [
+                "Plotter",
+                "Printer",
+                "Scanner",
+                "Monitor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Scanner is an input device, not an output device."
+        },
+        {
+            "id": 66,
+            "question": "Devices that let the computer communicate with you./ऐसे डिवाइस जो कंप्यूटर को आपके साथ संवाद करने देते हैं।",
+            "options": [
+                "input",
+                "output",
+                "type",
+                "print",
+                "None of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "Output devices let the computer communicate with the user by displaying or printing results."
+        },
+        {
+            "id": 67,
+            "question": "Devices that allow you to put information into the computer./ऐसे डिवाइस जो आपको जानकारी दर्ज करने देते हैं। [CURDE]",
+            "options": [
+                "input",
+                "output",
+                "type",
+                "print"
+            ],
+            "correctIndex": 0,
+            "explanation": "Input devices allow you to put information into the computer."
+        },
+        {
+            "id": 68,
+            "question": "The primary device that a computer uses to store information./कंप्यूटर में जानकारी स्टोर करने के लिए मुख्य डिवाइस कौन सा है? [GTRE SSC CGL]",
+            "options": [
+                "TV",
+                "Storehouse",
+                "Desk",
+                "Hard drive"
+            ],
+            "correctIndex": 3,
+            "explanation": "Hard drive is the primary device a computer uses to store information permanently."
+        },
+        {
+            "id": 69,
+            "question": "Pick the odd one –/अलग विकल्प चुनें [SSC CHSL]",
+            "options": [
+                "Mouse",
+                "Scanner",
+                "Printer",
+                "Keyboard",
+                "None of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "Printer is the odd one out as it is an output device while Mouse, Scanner, and Keyboard are input devices."
+        },
+        {
+            "id": 70,
+            "question": "An output device that lets you see what the computer is doing – [HSSC CET]",
+            "options": [
+                "a disk drive",
+                "monitor-screen",
+                "shift key",
+                "printer"
+            ],
+            "correctIndex": 1,
+            "explanation": "Monitor-screen is the output device that lets you see what the computer is doing."
+        },
+        {
+            "id": 71,
+            "question": "Which of the following can input graphical images and pictures for a computer? [NAVY]",
+            "options": [
+                "Plotter",
+                "Scanner",
+                "Mouse",
+                "Printer"
+            ],
+            "correctIndex": 1,
+            "explanation": "Scanner can input graphical images and pictures into a computer."
+        },
+        {
+            "id": 72,
+            "question": "The function of CPU is –/CPU का कार्य क्या है? [CRPF]",
+            "options": [
+                "to provide external storage of text",
+                "to communicate with the operator",
+                "to read, interpret and process the information and instruction",
+                "to provide a hard copy"
+            ],
+            "correctIndex": 2,
+            "explanation": "The CPU reads, interprets and processes the information and instructions."
+        },
+        {
+            "id": 73,
+            "question": "Printed information, called __________, exists physically and is a more permanent form of output. [MP Peb]",
+            "options": [
+                "soft copy",
+                "carbon copy",
+                "hard copy",
+                "desk copy"
+            ],
+            "correctIndex": 2,
+            "explanation": "Hard copy is the printed information that exists physically and is more permanent than a display."
+        },
+        {
+            "id": 74,
+            "question": "Which of the following is considered an input device?/निम्नलिखित में से कौन इनपुट डिवाइस माना जाता है?",
+            "options": [
+                "Keyboard",
+                "Monitor",
+                "Floppy disk",
+                "Printer",
+                "CD"
+            ],
+            "correctIndex": 0,
+            "explanation": "Keyboard is an input device used for entering data into the computer."
+        },
+        {
+            "id": 75,
+            "question": "Decreasing the amount of space required to store data and programs is accomplished by _______. [Delhi Police Head Constable]",
+            "options": [
+                "pressing",
+                "disk caching",
+                "RAID",
+                "crashing",
+                "compression"
+            ],
+            "correctIndex": 4,
+            "explanation": "Compression is used to decrease the amount of space required to store data and programs."
+        },
+        {
+            "id": 76,
+            "question": "A device that copies or reproduces text and images is also called a(n) __________.",
+            "options": [
+                "optical scanner",
+                "bar code reader",
+                "character device",
+                "digital camera",
+                "printer"
+            ],
+            "correctIndex": 0,
+            "explanation": "An optical scanner is a device that copies or reproduces text and images."
+        },
+        {
+            "id": 77,
+            "question": "Which of the following is the equipment which holds the screen of a computer? [DSSSB 2025]",
+            "options": [
+                "Video",
+                "Desktop",
+                "Modem",
+                "Monitor",
+                "Scanner"
+            ],
+            "correctIndex": 3,
+            "explanation": "Monitor is the equipment that holds the screen of a computer."
+        },
+        {
+            "id": 78,
+            "question": "What is usually used for displaying information at public places?/सार्वजनिक स्थानों पर जानकारी प्रदर्शित करने के लिए क्या उपयोग होता है? [UPSSSC]",
+            "options": [
+                "Monitor",
+                "Overhead Projections",
+                "Monitors and Overhead Projections",
+                "Touch Screen Kiosks"
+            ],
+            "correctIndex": 2,
+            "explanation": "Monitors and Overhead Projections are used for displaying information at public places."
+        },
+        {
+            "id": 79,
+            "question": "Which of the following is not an output device?/निम्नलिखित में से कौन आउटपुट डिवाइस नहीं है? [ITI COPA 2025]",
+            "options": [
+                "Plotter",
+                "Printer",
+                "Monitor",
+                "Touch Screen"
+            ],
+            "correctIndex": 3,
+            "explanation": "Touch Screen is both an input and output device, making it not purely an output device."
+        },
+        {
+            "id": 80,
+            "question": "Every component of your computer is either/आपके कंप्यूटर का प्रत्येक घटक या तो [CTS COPA 2025]",
+            "options": [
+                "hardware or software",
+                "input or output",
+                "program or data",
+                "memory or storage"
+            ],
+            "correctIndex": 0,
+            "explanation": "Every component of a computer is either hardware or software."
+        },
+        {
+            "id": 81,
+            "question": "The computer monitor is which type of device?/कंप्यूटर मॉनिटर किस प्रकार का डिवाइस है? [Railway]",
+            "options": [
+                "Input",
+                "Output",
+                "Processing",
+                "Software"
+            ],
+            "correctIndex": 1,
+            "explanation": "Computer monitor is an output device that displays the visual output."
+        },
+        {
+            "id": 82,
+            "question": "The primary output device for computers is a/कंप्यूटर के लिए प्रमुख आउटपुट डिवाइस क्या है? [CCC 2025]",
+            "options": [
+                "video monitor",
+                "printer",
+                "keyboard",
+                "mouse",
+                "None of the above"
+            ],
+            "correctIndex": 0,
+            "explanation": "Video monitor is the primary output device for computers."
+        },
+        {
+            "id": 83,
+            "question": "The output which is made up of pictures, sounds, and video is called/जिस आउटपुट में चित्र, ध्वनि, और वीडियो शामिल होते हैं? [CCC 2025]",
+            "options": [
+                "COM",
+                "hard copy",
+                "graphics",
+                "multimedia"
+            ],
+            "correctIndex": 3,
+            "explanation": "Multimedia output is made up of pictures, sounds, and video."
+        },
+        {
+            "id": 84,
+            "question": "__________ provides the means to move the pointer on the screen and give information to the computer by clicking its buttons. [CCC 2025]",
+            "options": [
+                "Scanner",
+                "Mouse",
+                "Keyboard",
+                "Program"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mouse provides the means to move the pointer on screen and give information by clicking."
+        },
+        {
+            "id": 85,
+            "question": "Which of the following could be digital input devices for computers? [CCC 2025]",
+            "options": [
+                "Digital camcorder",
+                "Microphone",
+                "Scanner",
+                "All of the above"
+            ],
+            "correctIndex": 3,
+            "explanation": "Digital camcorder, microphone, and scanner are all digital input devices for computers."
+        },
+        {
+            "id": 86,
+            "question": "When speaking of computer input and output, input refers to [CCC 2025]",
+            "options": [
+                "any data processing that occurs from new data input into computer",
+                "retrieval of data or information that has been entered into the computer",
+                "data or information that has been entered into the computer",
+                "the transmission of data that has been entered into the computer",
+                "Both (c) and (d)"
+            ],
+            "correctIndex": 2,
+            "explanation": "Input refers to data or information that has been entered into the computer."
+        },
+        {
+            "id": 87,
+            "question": "A means of capturing an image (drawing or photo) so that it can be stored on a computer is [JKSSB]",
+            "options": [
+                "Modem",
+                "Software",
+                "Scanner",
+                "Keyboard"
+            ],
+            "correctIndex": 2,
+            "explanation": "Scanner is the means of capturing an image so that it can be stored on a computer."
+        },
+        {
+            "id": 88,
+            "question": "Access control based on a person's fingerprints is an example of [SBI PO 2012]",
+            "options": [
+                "biometric identification",
+                "characteristic identification",
+                "fingerprint security",
+                "logistics",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "Access control based on fingerprints is an example of biometric identification."
+        },
+        {
+            "id": 89,
+            "question": "The patterns of printed lines on most products are called/अधिकांश उत्पादों पर छपे लाइनों के पैटर्न को क्या कहते हैं?",
+            "options": [
+                "barcodes",
+                "QR codes",
+                "serial numbers",
+                "watermarks"
+            ],
+            "correctIndex": 0,
+            "explanation": "Barcodes are the patterns of printed lines on most products used for identification."
+        },
+        {
+            "id": 90,
+            "question": "Which of the following is needed for sound recording?/ध्वनि रिकॉर्डिंग के लिए किसकी आवश्यकता होती है?",
+            "options": [
+                "Speaker",
+                "Microphone",
+                "Talker",
+                "Mouse",
+                "Telephone"
+            ],
+            "correctIndex": 1,
+            "explanation": "Microphone is needed for sound recording as it converts sound to electrical signals."
+        },
+        {
+            "id": 91,
+            "question": "Codes consisting of bars or lines of varying widths or lengths that are computer-readable are known as_______. [CCC 2025]",
+            "options": [
+                "a bar code",
+                "an ASCII code",
+                "a QR code",
+                "a binary code"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bar codes consist of bars or lines of varying widths that are computer-readable."
+        },
+        {
+            "id": 92,
+            "question": "In a computer most processing takes place in _________./कंप्यूटर में अधिकतर प्रोसेसिंग कहाँ होती है? [CCC 2025]",
+            "options": [
+                "CPU",
+                "RAM",
+                "Hard Disk",
+                "Motherboard"
+            ],
+            "correctIndex": 0,
+            "explanation": "In a computer, most processing takes place in the CPU (Central Processing Unit)."
+        },
+        {
+            "id": 93,
+            "question": "Keyboards, scanners, and microphones are examples of _______./कीबोर्ड, स्कैनर और माइक्रोफोन किसके उदाहरण हैं?",
+            "options": [
+                "input devices",
+                "output devices",
+                "storage devices",
+                "processing devices"
+            ],
+            "correctIndex": 0,
+            "explanation": "Keyboards, scanners, and microphones are examples of input devices."
+        },
+        {
+            "id": 94,
+            "question": "Which of the following is part of the System Unit?/निम्न में से कौन सिस्टम यूनिट का हिस्सा है? [SBI PO 2012]",
+            "options": [
+                "Monitor",
+                "CPU",
+                "CD-ROM",
+                "Floppy Disk"
+            ],
+            "correctIndex": 1,
+            "explanation": "CPU is a part of the System Unit."
+        },
+        {
+            "id": 95,
+            "question": "Which of the following groups consist of only input devices? [SBI Clerk 2012]",
+            "options": [
+                "Mouse, Keyboard, Monitor",
+                "Mouse, Keyboard, Printer",
+                "Mouse, Keyboard, Plotter",
+                "Mouse, Keyboard, Scanner"
+            ],
+            "correctIndex": 3,
+            "explanation": "Mouse, Keyboard, and Scanner are all input devices."
+        },
+        {
+            "id": 96,
+            "question": "A hard copy of a document is __________./किसी दस्तावेज की हार्ड कॉपी क्या होती है? [CBSE Computer Science 2025]",
+            "options": [
+                "printed on the printer",
+                "stored on a floppy",
+                "stored on a CD",
+                "stored in the hard disk"
+            ],
+            "correctIndex": 0,
+            "explanation": "A hard copy is a document printed on the printer."
+        },
+        {
+            "id": 97,
+            "question": "The ALU performs _________ operations./ALU कौन से ऑपरेशन करता है? [MDU BCA 2025]",
+            "options": [
+                "logic",
+                "ASCII",
+                "algorithm-based",
+                "logarithm-based"
+            ],
+            "correctIndex": 0,
+            "explanation": "The ALU (Arithmetic Logic Unit) performs logic and arithmetic operations."
+        },
+        {
+            "id": 98,
+            "question": "The most common method of entering text and numerical data into a computer system is through the use of a _____. [CG Vyapam]",
+            "options": [
+                "keyboard",
+                "scanner",
+                "printer",
+                "plotter"
+            ],
+            "correctIndex": 0,
+            "explanation": "Keyboard is the most common method of entering text and numerical data."
+        },
+        {
+            "id": 99,
+            "question": "ALU works on the instructions and data held in the/ALU किन निर्देशों और डेटा पर काम करता है? [CITS COPA Entrance]",
+            "options": [
+                "Notebook",
+                "Registers",
+                "Copy Pad",
+                "I/O devices"
+            ],
+            "correctIndex": 1,
+            "explanation": "ALU works on the instructions and data held in the Registers."
+        },
+        {
+            "id": 100,
+            "question": "What is a device that can change images into codes for the computer?/ऐसा कौन सा उपकरण है जो कंप्यूटर के लिए चित्रों को कोड में बदल सकता है? [CTI COPA Entrance]",
+            "options": [
+                "Mouse",
+                "Printer",
+                "Joystick",
+                "Scanner"
+            ],
+            "correctIndex": 3,
+            "explanation": "Scanner is a device that can change images into codes (digital format) for the computer."
+        }
+    ]
+}

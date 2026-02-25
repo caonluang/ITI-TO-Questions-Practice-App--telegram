@@ -1,0 +1,125 @@
+{
+    "topic": "DBMS - Normalization (Hindi)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "1NF (First Normal Form) kya hai?",
+            "options": [
+                "Jismean keval atomic values hoti hain",
+                "Jismean multiple values allow hoti hain",
+                "Jismean primary key ki zarurat nahi hoti",
+                "Jo redundancy allow karta hai"
+            ],
+            "correctIndex": 0,
+            "explanation": "1NF ensure karta hai ki har column mein sirf atomic (indivisible) values hon. Koi repeating groups ya arrays allowed nahi hote."
+        },
+        {
+            "id": 2,
+            "question": "Kaunsa normal form partial dependency ko hatata hai?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctIndex": 1,
+            "explanation": "2NF partial dependency ko hatata hai. Ek table 2NF mein tab hota hai jab wo 1NF mein ho aur sabhi non-key attributes puri tarah primary key par dependent hon."
+        },
+        {
+            "id": 3,
+            "question": "3NF kya eliminate karta hai?",
+            "options": [
+                "Partial dependency",
+                "Transitive dependency",
+                "Multi-valued dependency",
+                "Join dependency"
+            ],
+            "correctIndex": 1,
+            "explanation": "3NF transitive dependency ko eliminate karta hai. Koi bhi non-prime attribute kisi dusre non-prime attribute par depend nahi karna chahiye."
+        },
+        {
+            "id": 4,
+            "question": "BCNF kis normal form se zyada strict hai?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "4NF"
+            ],
+            "correctIndex": 2,
+            "explanation": "BCNF (Boyce-Codd Normal Form) 3NF se zyada strict hai. Har functional dependency X→Y ke liye, X ko Ek super key hona chahiye."
+        },
+        {
+            "id": 5,
+            "question": "Functional dependency kya hai?",
+            "options": [
+                "Do attributes ke beech ka constraint",
+                "Ek prakar ki key",
+                "Ek normalization form",
+                "Ek database operation"
+            ],
+            "correctIndex": 0,
+            "explanation": "Functional dependency ek constraint hai jahan ek attribute dusre attribute ko uniquely determine karta hai. Ise X → Y likha jata hai."
+        },
+        {
+            "id": 6,
+            "question": "Kaunsi key row ko uniquely identify karti hai?",
+            "options": [
+                "Foreign Key",
+                "Primary Key",
+                "Alternate Key",
+                "Composite Key"
+            ],
+            "correctIndex": 1,
+            "explanation": "Primary Key table mein har row ko uniquely identify karti hai. Ismein NULL values nahi ho sakti aur ye unique honi chahiye."
+        },
+        {
+            "id": 7,
+            "question": "Denormalization kya hai?",
+            "options": [
+                "Zyada tables add karna",
+                "Redundancy hatana",
+                "Performance ke liye redundancy add karna",
+                "Views create karna"
+            ],
+            "correctIndex": 2,
+            "explanation": "Denormalization read performance badhane ke liye redundancy add karne ka process hai, lekin isse write performance kam ho sakti hai."
+        },
+        {
+            "id": 8,
+            "question": "4NF kis dependency se deal karta hai?",
+            "options": [
+                "Functional dependency",
+                "Partial dependency",
+                "Multi-valued dependency",
+                "Transitive dependency"
+            ],
+            "correctIndex": 2,
+            "explanation": "4NF multi-valued dependencies ko eliminate karta hai. Ye ensure karta hai ki kisi table mein do ya usse zyada independent multi-valued facts na hon."
+        },
+        {
+            "id": 9,
+            "question": "Candidate key kya hai?",
+            "options": [
+                "Ek foreign key reference",
+                "Minimal super key",
+                "Table ka koi bhi column",
+                "Sirf primary key"
+            ],
+            "correctIndex": 1,
+            "explanation": "Candidate key ek minimal super key hai - ye rows ko uniquely identify karti hai bina kisi redundant attribute ke."
+        },
+        {
+            "id": 10,
+            "question": "Inmein se kaunsa database anomaly nahi hai?",
+            "options": [
+                "Insertion anomaly",
+                "Deletion anomaly",
+                "Selection anomaly",
+                "Update anomaly"
+            ],
+            "correctIndex": 2,
+            "explanation": "Selection anomaly jaisa kuch nahi hota. Teen main anomalies hain: Insertion, Deletion, aur Update anomalies."
+        }
+    ]
+}

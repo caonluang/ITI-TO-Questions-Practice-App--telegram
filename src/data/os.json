@@ -1,0 +1,101 @@
+{
+    "topic": "Operating Systems (Hindi)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "OS mein process kya hai?",
+            "options": [
+                "Execution mein ek program",
+                "Ek saved file",
+                "Ek hardware component",
+                "Memory ka ek prakar"
+            ],
+            "correctIndex": 0,
+            "explanation": "Process execution mein ek program hota hai. Ismein program code, current activity, stack, heap, aur data section shamil hote hain."
+        },
+        {
+            "id": 2,
+            "question": "Kaunsa scheduling algorithm starvation cause kar sakta hai?",
+            "options": [
+                "FCFS",
+                "Round Robin",
+                "SJF",
+                "FIFO"
+            ],
+            "correctIndex": 2,
+            "explanation": "SJF (Shortest Job First) starvation cause kar sakta hai kyunki chhote processes ko priority milti rehti hai aur lambe process wait karte reh jate hain."
+        },
+        {
+            "id": 3,
+            "question": "Context switch kya hai?",
+            "options": [
+                "Users ke beech switch karna",
+                "Process state save aur load karna",
+                "Hard drives switch karna",
+                "OS version badalna"
+            ],
+            "correctIndex": 1,
+            "explanation": "Context switch current process ki state ko save karne aur agle process ki state ko load karne ka process hai."
+        },
+        {
+            "id": 4,
+            "question": "PCB ka full form kya hai?",
+            "options": [
+                "Process Control Block",
+                "Program Counter Base",
+                "Process Counter Block",
+                "Primary Control Buffer"
+            ],
+            "correctIndex": 0,
+            "explanation": "PCB (Process Control Block) mein process ki saari jankari hoti hai - jaise PID, state, registers, memory info, aadi."
+        },
+        {
+            "id": 5,
+            "question": "Inmein se kaunsa process state nahi hai?",
+            "options": [
+                "Running",
+                "Waiting",
+                "Sleeping",
+                "Compiling"
+            ],
+            "correctIndex": 3,
+            "explanation": "Compiling process state nahi hai. Main states hain: New, Ready, Running, Waiting, aur Terminated."
+        },
+        {
+            "id": 6,
+            "question": "Deadlock ka karan kya hai?",
+            "options": [
+                "Bahut zyada RAM",
+                "Circular wait condition",
+                "Tez CPU",
+                "Multiple users"
+            ],
+            "correctIndex": 1,
+            "explanation": "Deadlock ke liye 4 conditions zaruri hain: Mutual Exclusion, Hold & Wait, No Preemption, aur Circular Wait."
+        },
+        {
+            "id": 7,
+            "question": "Time quantum kis algorithm mein use hota hai?",
+            "options": [
+                "FCFS",
+                "SJF",
+                "Round Robin",
+                "Priority"
+            ],
+            "correctIndex": 2,
+            "explanation": "Round Robin time quantum (time slice) ka use karta hai - har process ko cyclic order mein ek fixed time slot milta hai."
+        },
+        {
+            "id": 8,
+            "question": "Thrashing kya hai?",
+            "options": [
+                "Fast processing",
+                "Excessive paging activity",
+                "Disk cleanup",
+                "Memory allocation"
+            ],
+            "correctIndex": 1,
+            "explanation": "Thrashing tab hoti hai jab system execute karne se zyada waqt paging mein bitata hai - isse performance bahut kharab ho jati hai."
+        }
+    ]
+}

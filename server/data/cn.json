@@ -1,0 +1,77 @@
+{
+    "topic": "Computer Networks - OSI Model (Hindi)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "OSI model mein kitni layers hoti hain?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correctIndex": 2,
+            "explanation": "OSI model mein 7 layers hoti hain: Physical, Data Link, Network, Transport, Session, Presentation, Application."
+        },
+        {
+            "id": 2,
+            "question": "Kaunsi layer routing handle karti hai?",
+            "options": [
+                "Physical",
+                "Data Link",
+                "Network",
+                "Transport"
+            ],
+            "correctIndex": 2,
+            "explanation": "Network layer (Layer 3) routing, IP addressing, aur path determination handle karti hai."
+        },
+        {
+            "id": 3,
+            "question": "TCP kis layer par operate karta hai?",
+            "options": [
+                "Network",
+                "Transport",
+                "Session",
+                "Application"
+            ],
+            "correctIndex": 1,
+            "explanation": "TCP (Transmission Control Protocol) Transport layer (Layer 4) par operate karta hai."
+        },
+        {
+            "id": 4,
+            "question": "MAC address kya identify karta hai?",
+            "options": [
+                "Network",
+                "Physical device",
+                "Application",
+                "Session"
+            ],
+            "correctIndex": 1,
+            "explanation": "MAC address ek hardware address hai jo network interface card (NIC) ko uniquely identify karta hai."
+        },
+        {
+            "id": 5,
+            "question": "Kaunsa protocol connectionless hai?",
+            "options": [
+                "TCP",
+                "UDP",
+                "FTP",
+                "SMTP"
+            ],
+            "correctIndex": 1,
+            "explanation": "UDP (User Datagram Protocol) connectionless hai - data transfer se pehle koi handshaking nahi hoti."
+        },
+        {
+            "id": 6,
+            "question": "HTTP by default kaunsa port use karta hai?",
+            "options": [
+                "21",
+                "22",
+                "80",
+                "443"
+            ],
+            "correctIndex": 2,
+            "explanation": "HTTP by default port 80 use karta hai. HTTPS port 443 use karta hai."
+        }
+    ]
+}

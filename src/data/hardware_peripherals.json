@@ -1,0 +1,845 @@
+{
+    "topic": "Hardware & Peripherals / हार्डवेयर और पेरीफेरल्स",
+    "questions": [
+        {
+            "id": 1,
+            "question": "RAM is volatile / RAM अस्थायी है – True or False? [SSC 2024]",
+            "options": [
+                "True",
+                "False",
+                "Depends on type",
+                "Only SRAM is volatile"
+            ],
+            "correctIndex": 0,
+            "explanation": "RAM is volatile — it loses its data when power is turned off."
+        },
+        {
+            "id": 2,
+            "question": "EPROM can be erased by ___. / EPROM को ___ द्वारा मिटाया जा सकता है। [SSC 2024]",
+            "options": [
+                "Ultraviolet light",
+                "Electricity",
+                "Magnetic force",
+                "Heat"
+            ],
+            "correctIndex": 0,
+            "explanation": "EPROM (Erasable Programmable ROM) can be erased by exposure to ultraviolet light."
+        },
+        {
+            "id": 3,
+            "question": "हार्ड डिस्क की गति को ___ में मापा जाता है / Hard disk speed is measured in: [SSC 2024]",
+            "options": [
+                "GHz",
+                "RPM",
+                "BPS",
+                "Watts"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hard disk speed is measured in RPM (Revolutions Per Minute)."
+        },
+        {
+            "id": 4,
+            "question": "प्राइमरी मेमोरी में क्या-क्या शामिल है? / What is included in primary memory? [SSC 2024]",
+            "options": [
+                "RAM and ROM",
+                "Hard Disk and RAM",
+                "CD and DVD",
+                "Pen Drive and SD Card"
+            ],
+            "correctIndex": 0,
+            "explanation": "Primary memory includes RAM and ROM."
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is a non-impact printer? / निम्न में से कौन सा नॉन-इम्पैक्ट प्रिंटर है? [IBPS 2024]",
+            "options": [
+                "Dot matrix printer",
+                "Daisy wheel printer",
+                "Laser printer",
+                "Chain printer"
+            ],
+            "correctIndex": 2,
+            "explanation": "Laser printer is a non-impact printer that uses laser and toner."
+        },
+        {
+            "id": 6,
+            "question": "CRT stands for / CRT का पूर्ण रूप: [IBPS 2024]",
+            "options": [
+                "Cathode Ray Tube",
+                "Crystal Ray Tube",
+                "Central Ray Type",
+                "Common Resolution Tube"
+            ],
+            "correctIndex": 0,
+            "explanation": "CRT stands for Cathode Ray Tube."
+        },
+        {
+            "id": 7,
+            "question": "Which memory is fastest? / सबसे तेज़ मेमोरी कौन सी है? [RRB 2024]",
+            "options": [
+                "Hard Disk",
+                "RAM",
+                "Cache",
+                "CD-ROM"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cache memory is the fastest type of memory, located closest to the CPU."
+        },
+        {
+            "id": 8,
+            "question": "Pen drive is connected to the computer using ___. / पेन ड्राइव कंप्यूटर से ___ के जरिये जोड़ी जाती है। [RRB 2024]",
+            "options": [
+                "USB Port",
+                "Serial Port",
+                "Parallel Port",
+                "FireWire"
+            ],
+            "correctIndex": 0,
+            "explanation": "Pen drive is connected via USB (Universal Serial Bus) port."
+        },
+        {
+            "id": 9,
+            "question": "CD-R stands for / CD-R का पूर्ण रूप: [SBI 2023]",
+            "options": [
+                "Compact Disc Readable",
+                "Compact Disc Recordable",
+                "Central Disc Readable",
+                "Common Disc Recorder"
+            ],
+            "correctIndex": 1,
+            "explanation": "CD-R stands for Compact Disc Recordable."
+        },
+        {
+            "id": 10,
+            "question": "Which of these is NOT a secondary storage device? / इनमें से कौन सेकेंडरी स्टोरेज नहीं है? [SBI 2023]",
+            "options": [
+                "Hard Disk",
+                "Floppy Disk",
+                "RAM",
+                "USB Drive"
+            ],
+            "correctIndex": 2,
+            "explanation": "RAM is primary memory, not secondary storage."
+        },
+        {
+            "id": 11,
+            "question": "LCD stands for / LCD का पूर्ण रूप: [CCC 2024]",
+            "options": [
+                "Liquid Crystal Display",
+                "Light Crystal Display",
+                "Liquid Central Display",
+                "Low Cost Display"
+            ],
+            "correctIndex": 0,
+            "explanation": "LCD stands for Liquid Crystal Display."
+        },
+        {
+            "id": 12,
+            "question": "The resolution of a printer is measured in ___. / प्रिंटर का रिजोल्यूशन ___ में मापा जाता है। [CCC 2024]",
+            "options": [
+                "Dots Per Inch (DPI)",
+                "Lines Per Minute",
+                "Megapixels",
+                "Hertz"
+            ],
+            "correctIndex": 0,
+            "explanation": "Printer resolution is measured in DPI (Dots Per Inch)."
+        },
+        {
+            "id": 13,
+            "question": "Plotter is used mainly for ___. / प्लॉटर मुख्य रूप से ___ के लिए प्रयोग होता है। [CCC 2024]",
+            "options": [
+                "Printing large-scale engineering drawings",
+                "Scanning photos",
+                "Recording audio",
+                "Networking"
+            ],
+            "correctIndex": 0,
+            "explanation": "Plotter is mainly used for printing large-scale engineering and architectural drawings."
+        },
+        {
+            "id": 14,
+            "question": "SSD stands for / SSD का पूर्ण रूप: [SSC CGL 2023]",
+            "options": [
+                "Solid State Drive",
+                "Static Storage Drive",
+                "System State Disk",
+                "Super Speed Disk"
+            ],
+            "correctIndex": 0,
+            "explanation": "SSD stands for Solid State Drive."
+        },
+        {
+            "id": 15,
+            "question": "Which port is used to connect the printer to the computer? / प्रिंटर को कंप्यूटर से जोड़ने के लिए कौन सा पोर्ट? [SSC CGL 2023]",
+            "options": [
+                "USB",
+                "VGA",
+                "HDMI",
+                "PS/2"
+            ],
+            "correctIndex": 0,
+            "explanation": "USB port is commonly used to connect printers to computers."
+        },
+        {
+            "id": 16,
+            "question": "DVD stands for / DVD का पूर्ण रूप: [RRB NTPC 2023]",
+            "options": [
+                "Digital Versatile Disc",
+                "Digital Video Display",
+                "Direct Visible Disc",
+                "Data Video Disc"
+            ],
+            "correctIndex": 0,
+            "explanation": "DVD stands for Digital Versatile Disc."
+        },
+        {
+            "id": 17,
+            "question": "Trackball is an alternative to ___. / ट्रैकबॉल ___ का विकल्प है। [RRB NTPC 2023]",
+            "options": [
+                "Keyboard",
+                "Mouse",
+                "Printer",
+                "Monitor"
+            ],
+            "correctIndex": 1,
+            "explanation": "Trackball is an alternative pointing device to the mouse."
+        },
+        {
+            "id": 18,
+            "question": "What is the function of a heat sink in a computer? / कंप्यूटर में हीट सिंक का कार्य क्या है? [SSC CHSL 2023]",
+            "options": [
+                "Store data",
+                "Cool the CPU",
+                "Display output",
+                "Transfer signals"
+            ],
+            "correctIndex": 1,
+            "explanation": "A heat sink absorbs and dissipates heat to cool the CPU."
+        },
+        {
+            "id": 19,
+            "question": "Which bus carries data between CPU and memory? / CPU और मेमोरी के बीच डेटा कौन सा बस ले जाता है? [SSC CHSL 2023]",
+            "options": [
+                "Address Bus",
+                "Data Bus",
+                "Control Bus",
+                "System Bus"
+            ],
+            "correctIndex": 1,
+            "explanation": "Data Bus carries data between the CPU and memory."
+        },
+        {
+            "id": 20,
+            "question": "GPU stands for / GPU का पूर्ण रूप: [UPSC 2023]",
+            "options": [
+                "Graphics Processing Unit",
+                "General Processing Unit",
+                "Global Processing Unit",
+                "Graphic Pixel Unit"
+            ],
+            "correctIndex": 0,
+            "explanation": "GPU stands for Graphics Processing Unit."
+        },
+        {
+            "id": 21,
+            "question": "Which of these is a volatile memory? / इनमें से कौन सी अस्थायी मेमोरी है? [UPSC 2023]",
+            "options": [
+                "ROM",
+                "EPROM",
+                "RAM",
+                "PROM"
+            ],
+            "correctIndex": 2,
+            "explanation": "RAM is a volatile memory that loses data when power is off."
+        },
+        {
+            "id": 22,
+            "question": "HDMI stands for / HDMI का पूर्ण रूप: [SSC MTS 2023]",
+            "options": [
+                "High Definition Multimedia Interface",
+                "High Digital Media Interface",
+                "Hard Digital Multimedia Input",
+                "High Definition Media Input"
+            ],
+            "correctIndex": 0,
+            "explanation": "HDMI stands for High Definition Multimedia Interface."
+        },
+        {
+            "id": 23,
+            "question": "A storage device with no moving parts is ___. / बिना किसी हिलने वाले हिस्से वाला स्टोरेज डिवाइस: [SSC MTS 2023]",
+            "options": [
+                "Hard Disk",
+                "SSD",
+                "Floppy Disk",
+                "CD-ROM"
+            ],
+            "correctIndex": 1,
+            "explanation": "SSD (Solid State Drive) has no moving parts."
+        },
+        {
+            "id": 24,
+            "question": "OCR stands for / OCR का पूर्ण रूप: [IBPS Clerk 2023]",
+            "options": [
+                "Optical Character Recognition",
+                "Online Character Reader",
+                "Output Character Recognition",
+                "Optical Code Reader"
+            ],
+            "correctIndex": 0,
+            "explanation": "OCR stands for Optical Character Recognition."
+        },
+        {
+            "id": 25,
+            "question": "MICR is commonly used in ___. / MICR आमतौर पर ___ में प्रयोग होता है। [IBPS Clerk 2023]",
+            "options": [
+                "Banking",
+                "Education",
+                "Gaming",
+                "Networking"
+            ],
+            "correctIndex": 0,
+            "explanation": "MICR (Magnetic Ink Character Recognition) is commonly used in banking for cheque processing."
+        },
+        {
+            "id": 26,
+            "question": "Which of the following is an impact printer? / निम्न में से कौन इम्पैक्ट प्रिंटर है? [SBI PO 2022]",
+            "options": [
+                "Inkjet printer",
+                "Laser printer",
+                "Dot matrix printer",
+                "Thermal printer"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dot matrix printer is an impact printer that prints by striking pins against an ink ribbon."
+        },
+        {
+            "id": 27,
+            "question": "Light pen is which type of device? / लाइट पेन किस प्रकार का डिवाइस है? [SBI PO 2022]",
+            "options": [
+                "Input device",
+                "Output device",
+                "Storage device",
+                "Processing device"
+            ],
+            "correctIndex": 0,
+            "explanation": "Light pen is an input device used to select items on a screen."
+        },
+        {
+            "id": 28,
+            "question": "Which memory type is electrically erasable? / कौन सी मेमोरी विद्युत रूप से मिटाई जा सकती है? [SBI PO 2022]",
+            "options": [
+                "PROM",
+                "EPROM",
+                "EEPROM",
+                "ROM"
+            ],
+            "correctIndex": 2,
+            "explanation": "EEPROM (Electrically Erasable Programmable ROM) can be erased electrically."
+        },
+        {
+            "id": 29,
+            "question": "VGA stands for / VGA का पूर्ण रूप: [SSC CGL 2022]",
+            "options": [
+                "Video Graphics Array",
+                "Visual Graphics Adapter",
+                "Virtual Graphics Array",
+                "Video General Adapter"
+            ],
+            "correctIndex": 0,
+            "explanation": "VGA stands for Video Graphics Array."
+        },
+        {
+            "id": 30,
+            "question": "OLED stands for / OLED का पूर्ण रूप: [SSC CGL 2022]",
+            "options": [
+                "Organic Light Emitting Diode",
+                "Optical Light Emitting Display",
+                "Output Light Emitting Diode",
+                "Organic Low Energy Display"
+            ],
+            "correctIndex": 0,
+            "explanation": "OLED stands for Organic Light Emitting Diode."
+        },
+        {
+            "id": 31,
+            "question": "Which device is used to read barcodes? / बारकोड पढ़ने के लिए कौन सा उपकरण? [Delhi Police 2022]",
+            "options": [
+                "Barcode Reader/Scanner",
+                "Webcam",
+                "Microphone",
+                "Trackball"
+            ],
+            "correctIndex": 0,
+            "explanation": "Barcode Reader/Scanner is used to read barcodes."
+        },
+        {
+            "id": 32,
+            "question": "Webcam is which type of device? / वेबकैम किस प्रकार का उपकरण है? [Delhi Police 2022]",
+            "options": [
+                "Output device",
+                "Input device",
+                "Storage device",
+                "Processing device"
+            ],
+            "correctIndex": 1,
+            "explanation": "Webcam is an input device that captures video."
+        },
+        {
+            "id": 33,
+            "question": "The capacity of a floppy disk is ___. / फ्लॉपी डिस्क की क्षमता ___ होती है। [CRPF 2022]",
+            "options": [
+                "1.44 MB",
+                "700 MB",
+                "4.7 GB",
+                "1 TB"
+            ],
+            "correctIndex": 0,
+            "explanation": "A standard 3.5-inch floppy disk has a capacity of 1.44 MB."
+        },
+        {
+            "id": 34,
+            "question": "Which type of ROM can be programmed once? / ROM का कौन सा प्रकार एक बार प्रोग्राम किया जा सकता है? [CRPF 2022]",
+            "options": [
+                "EPROM",
+                "PROM",
+                "EEPROM",
+                "Flash ROM"
+            ],
+            "correctIndex": 1,
+            "explanation": "PROM (Programmable ROM) can be programmed only once."
+        },
+        {
+            "id": 35,
+            "question": "NIC stands for / NIC का पूर्ण रूप: [SBI Clerk 2022]",
+            "options": [
+                "Network Interface Card",
+                "National Information Center",
+                "Network Input Controller",
+                "Node Interface Card"
+            ],
+            "correctIndex": 0,
+            "explanation": "NIC stands for Network Interface Card."
+        },
+        {
+            "id": 36,
+            "question": "Which of these is used for biometric authentication? / बायोमेट्रिक प्रमाणीकरण के लिए कौन सा उपयोग होता है? [SBI Clerk 2022]",
+            "options": [
+                "Fingerprint scanner",
+                "Keyboard",
+                "Mouse",
+                "Printer"
+            ],
+            "correctIndex": 0,
+            "explanation": "Fingerprint scanner is used for biometric authentication."
+        },
+        {
+            "id": 37,
+            "question": "PS/2 port is used to connect ___. / PS/2 पोर्ट ___ को जोड़ने के लिए प्रयोग होता है। [JKSSB 2022]",
+            "options": [
+                "Keyboard and Mouse",
+                "Printer",
+                "Monitor",
+                "Speaker"
+            ],
+            "correctIndex": 0,
+            "explanation": "PS/2 port is used to connect Keyboard and Mouse."
+        },
+        {
+            "id": 38,
+            "question": "Which bus is used to carry address signals? / एड्रेस सिग्नल ले जाने के लिए कौन सा बस? [JKSSB 2022]",
+            "options": [
+                "Data Bus",
+                "Address Bus",
+                "Control Bus",
+                "Serial Bus"
+            ],
+            "correctIndex": 1,
+            "explanation": "Address Bus is used to carry address signals."
+        },
+        {
+            "id": 39,
+            "question": "FireWire port is also known as ___. / फायरवायर पोर्ट को ___ भी कहते हैं। [RBI 2022]",
+            "options": [
+                "IEEE 1394",
+                "USB 3.0",
+                "Thunderbolt",
+                "Serial Port"
+            ],
+            "correctIndex": 0,
+            "explanation": "FireWire port is also known as IEEE 1394."
+        },
+        {
+            "id": 40,
+            "question": "DRAM needs to be refreshed ___. / DRAM को ___ रिफ्रेश करना पड़ता है। [RBI 2022]",
+            "options": [
+                "Periodically",
+                "Only once",
+                "Never",
+                "Only at startup"
+            ],
+            "correctIndex": 0,
+            "explanation": "DRAM (Dynamic RAM) needs to be refreshed periodically to retain data."
+        },
+        {
+            "id": 41,
+            "question": "Which of the following is an optical storage device? / निम्न में से कौन ऑप्टिकल स्टोरेज? [CCC 2023]",
+            "options": [
+                "Hard Disk",
+                "Floppy Disk",
+                "CD-ROM",
+                "Pen Drive"
+            ],
+            "correctIndex": 2,
+            "explanation": "CD-ROM is an optical storage device that uses laser to read data."
+        },
+        {
+            "id": 42,
+            "question": "Touchpad is mainly used in ___. / टचपैड मुख्य रूप से ___ में प्रयोग होता है। [CCC 2023]",
+            "options": [
+                "Desktops",
+                "Laptops",
+                "Servers",
+                "Mainframes"
+            ],
+            "correctIndex": 1,
+            "explanation": "Touchpad is mainly used in Laptops as a pointing device."
+        },
+        {
+            "id": 43,
+            "question": "Which device converts analog signal to digital? / कौन सा डिवाइस एनालॉग सिग्नल को डिजिटल में बदलता है? [CCC 2023]",
+            "options": [
+                "DAC",
+                "ADC",
+                "Modem",
+                "Router"
+            ],
+            "correctIndex": 1,
+            "explanation": "ADC (Analog to Digital Converter) converts analog signals to digital."
+        },
+        {
+            "id": 44,
+            "question": "Keyboard shortcut to open Task Manager in Windows is ___. / विंडोज में टास्क मैनेजर खोलने का शॉर्टकट: [SSC 2023]",
+            "options": [
+                "Ctrl + Alt + Delete",
+                "Ctrl + Shift + N",
+                "Alt + F4",
+                "Ctrl + Z"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ctrl + Alt + Delete opens the security screen from where Task Manager can be accessed."
+        },
+        {
+            "id": 45,
+            "question": "Which component controls the timing of computer operations? / कंप्यूटर ऑपरेशन की टाइमिंग को कौन नियंत्रित करता है? [SSC 2023]",
+            "options": [
+                "ALU",
+                "System Clock",
+                "RAM",
+                "Hard Disk"
+            ],
+            "correctIndex": 1,
+            "explanation": "System Clock controls the timing and synchronization of computer operations."
+        },
+        {
+            "id": 46,
+            "question": "Which port provides the fastest data transfer? / कौन सा पोर्ट सबसे तेज़ डेटा ट्रांसफर देता है? [SSC 2023]",
+            "options": [
+                "Serial port",
+                "Parallel port",
+                "USB 3.0",
+                "PS/2"
+            ],
+            "correctIndex": 2,
+            "explanation": "USB 3.0 provides the fastest data transfer among the listed options (up to 5 Gbps)."
+        },
+        {
+            "id": 47,
+            "question": "Magnetic ink is used in which technology? / चुंबकीय स्याही किस तकनीक में प्रयोग होती है? [IBPS PO 2023]",
+            "options": [
+                "OCR",
+                "MICR",
+                "OMR",
+                "Barcode"
+            ],
+            "correctIndex": 1,
+            "explanation": "Magnetic Ink is used in MICR (Magnetic Ink Character Recognition) technology."
+        },
+        {
+            "id": 48,
+            "question": "OMR is used to ___. / OMR का उपयोग ___ के लिए होता है। [IBPS PO 2023]",
+            "options": [
+                "Read handwritten text",
+                "Read pencil marks on paper",
+                "Read bar codes",
+                "Print documents"
+            ],
+            "correctIndex": 1,
+            "explanation": "OMR (Optical Mark Recognition) is used to read pencil marks on paper, such as exam answer sheets."
+        },
+        {
+            "id": 49,
+            "question": "Which memory is used as cache memory? / कैश मेमोरी के रूप में किसका उपयोग होता है? [IBPS PO 2023]",
+            "options": [
+                "DRAM",
+                "SRAM",
+                "ROM",
+                "EEPROM"
+            ],
+            "correctIndex": 1,
+            "explanation": "SRAM (Static RAM) is used as cache memory because of its high speed."
+        },
+        {
+            "id": 50,
+            "question": "Which generation of computers used Integrated Circuits? / किस पीढ़ी के कंप्यूटर में IC का उपयोग हुआ? [SBI PO 2023]",
+            "options": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth"
+            ],
+            "correctIndex": 2,
+            "explanation": "Third generation computers (1964-1971) used Integrated Circuits (ICs)."
+        },
+        {
+            "id": 51,
+            "question": "Ethernet card is another name for ___. / इथरनेट कार्ड का दूसरा नाम: [SBI PO 2023]",
+            "options": [
+                "NIC",
+                "GPU",
+                "CPU",
+                "RAM"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ethernet card is another name for NIC (Network Interface Card)."
+        },
+        {
+            "id": 52,
+            "question": "Which key is used to enter BIOS setup? / BIOS सेटअप में प्रवेश करने के लिए कौन सी कुंजी? [SBI PO 2023]",
+            "options": [
+                "Delete / F2",
+                "Ctrl + C",
+                "Alt + Tab",
+                "Shift + Enter"
+            ],
+            "correctIndex": 0,
+            "explanation": "Delete or F2 key is commonly used to enter BIOS setup during boot."
+        },
+        {
+            "id": 53,
+            "question": "The number of pixels displayed on the screen is called ___. / स्क्रीन पर प्रदर्शित पिक्सेल की संख्या को कहते हैं: [LIC 2023]",
+            "options": [
+                "Resolution",
+                "Brightness",
+                "Contrast",
+                "Aspect Ratio"
+            ],
+            "correctIndex": 0,
+            "explanation": "Resolution is the number of pixels displayed on the screen."
+        },
+        {
+            "id": 54,
+            "question": "A joystick is mainly used for ___. / जॉयस्टिक मुख्य रूप से ___ के लिए प्रयोग होता है। [LIC 2023]",
+            "options": [
+                "Typing",
+                "Gaming",
+                "Printing",
+                "Scanning"
+            ],
+            "correctIndex": 1,
+            "explanation": "A joystick is mainly used for gaming."
+        },
+        {
+            "id": 55,
+            "question": "Which of these is a magnetic storage device? / इनमें से कौन सा चुंबकीय स्टोरेज है? [LIC 2023]",
+            "options": [
+                "CD",
+                "DVD",
+                "Hard Disk",
+                "Blu-ray"
+            ],
+            "correctIndex": 2,
+            "explanation": "Hard Disk is a magnetic storage device."
+        },
+        {
+            "id": 56,
+            "question": "AGP stands for / AGP का पूर्ण रूप: [CDS 2023]",
+            "options": [
+                "Accelerated Graphics Port",
+                "Advanced Graphics Port",
+                "Automated Graphics Processor",
+                "Accelerated General Port"
+            ],
+            "correctIndex": 0,
+            "explanation": "AGP stands for Accelerated Graphics Port."
+        },
+        {
+            "id": 57,
+            "question": "PCI stands for / PCI का पूर्ण रूप: [CDS 2023]",
+            "options": [
+                "Peripheral Component Interconnect",
+                "Personal Computer Interface",
+                "Peripheral Computer Input",
+                "Printed Circuit Interface"
+            ],
+            "correctIndex": 0,
+            "explanation": "PCI stands for Peripheral Component Interconnect."
+        },
+        {
+            "id": 58,
+            "question": "LED stands for / LED का पूर्ण रूप: [MP Patwari 2023]",
+            "options": [
+                "Light Emitting Diode",
+                "Light Emitting Display",
+                "Low Energy Display",
+                "Liquid Emitting Diode"
+            ],
+            "correctIndex": 0,
+            "explanation": "LED stands for Light Emitting Diode."
+        },
+        {
+            "id": 59,
+            "question": "Which memory retains data permanently without power? / कौन सी मेमोरी बिना पावर के डेटा रखती है? [MP Patwari 2023]",
+            "options": [
+                "RAM",
+                "SRAM",
+                "DRAM",
+                "ROM"
+            ],
+            "correctIndex": 3,
+            "explanation": "ROM (Read Only Memory) retains data permanently without power."
+        },
+        {
+            "id": 60,
+            "question": "Speakers are which type of device? / स्पीकर किस प्रकार का उपकरण है? [UPSSSC 2023]",
+            "options": [
+                "Input",
+                "Output",
+                "Storage",
+                "Processing"
+            ],
+            "correctIndex": 1,
+            "explanation": "Speakers are output devices that produce sound."
+        },
+        {
+            "id": 61,
+            "question": "Which of these keyboard types uses rubber dome under the keys? / कौन सा कीबोर्ड प्रकार रबर डोम का उपयोग करता है? [UPSSSC 2023]",
+            "options": [
+                "Mechanical keyboard",
+                "Membrane keyboard",
+                "Optical keyboard",
+                "Capacitive keyboard"
+            ],
+            "correctIndex": 1,
+            "explanation": "Membrane keyboard uses rubber dome under the keys."
+        },
+        {
+            "id": 62,
+            "question": "Which device is used as a pointing device in laptops? / लैपटॉप में पॉइंटिंग डिवाइस के रूप में: [CG Vyapam 2023]",
+            "options": [
+                "Trackpad/Touchpad",
+                "Joystick",
+                "Light pen",
+                "Digitizer"
+            ],
+            "correctIndex": 0,
+            "explanation": "Trackpad/Touchpad is the pointing device used in laptops."
+        },
+        {
+            "id": 63,
+            "question": "SMPS converts ___. / SMPS ___ रूपांतरित करता है। [CG Vyapam 2023]",
+            "options": [
+                "AC to DC",
+                "DC to AC",
+                "Digital to Analog",
+                "Analog to Digital"
+            ],
+            "correctIndex": 0,
+            "explanation": "SMPS (Switch Mode Power Supply) converts AC to DC power for computer components."
+        },
+        {
+            "id": 64,
+            "question": "How many pins does a VGA connector have? / VGA कनेक्टर में कितने पिन होते हैं? [Navy 2022]",
+            "options": [
+                "9",
+                "15",
+                "25",
+                "36"
+            ],
+            "correctIndex": 1,
+            "explanation": "A VGA connector has 15 pins."
+        },
+        {
+            "id": 65,
+            "question": "Which is the brain of the computer? / कंप्यूटर का मस्तिष्क कौन है? [Navy 2022]",
+            "options": [
+                "Monitor",
+                "Keyboard",
+                "CPU",
+                "Hard Disk"
+            ],
+            "correctIndex": 2,
+            "explanation": "CPU (Central Processing Unit) is called the brain of the computer."
+        },
+        {
+            "id": 66,
+            "question": "Which type of monitor uses phosphor coating? / किस प्रकार का मॉनिटर फॉस्फर कोटिंग का उपयोग करता है? [DRDO 2022]",
+            "options": [
+                "LCD",
+                "LED",
+                "CRT",
+                "OLED"
+            ],
+            "correctIndex": 2,
+            "explanation": "CRT (Cathode Ray Tube) monitor uses phosphor coating on its screen."
+        },
+        {
+            "id": 67,
+            "question": "SATA stands for / SATA का पूर्ण रूप: [DRDO 2022]",
+            "options": [
+                "Serial Advanced Technology Attachment",
+                "Standard Advanced Technology Adapter",
+                "Serial Attached Technology Adapter",
+                "System Advanced Technology Attachment"
+            ],
+            "correctIndex": 0,
+            "explanation": "SATA stands for Serial Advanced Technology Attachment."
+        },
+        {
+            "id": 68,
+            "question": "Blu-ray disc was developed by ___. / ब्लू-रे डिस्क किसने विकसित की? [GATE 2022]",
+            "options": [
+                "Microsoft",
+                "Apple",
+                "Blu-ray Disc Association",
+                "IBM"
+            ],
+            "correctIndex": 2,
+            "explanation": "Blu-ray disc was developed by the Blu-ray Disc Association."
+        },
+        {
+            "id": 69,
+            "question": "Which port supports hot swapping? / कौन सा पोर्ट हॉट स्वैपिंग सपोर्ट करता है? [GATE 2022]",
+            "options": [
+                "Serial Port",
+                "USB",
+                "Parallel Port",
+                "PS/2"
+            ],
+            "correctIndex": 1,
+            "explanation": "USB supports hot swapping (connecting/disconnecting without shutting down)."
+        },
+        {
+            "id": 70,
+            "question": "Which type of printer uses heat to transfer ink? / कौन सा प्रिंटर स्याही ट्रांसफर के लिए गर्मी का उपयोग करता है? [ISRO 2022]",
+            "options": [
+                "Laser printer",
+                "Dot matrix printer",
+                "Thermal printer",
+                "Inkjet printer"
+            ],
+            "correctIndex": 2,
+            "explanation": "Thermal printer uses heat to transfer ink or activate special thermal paper."
+        }
+    ]
+}

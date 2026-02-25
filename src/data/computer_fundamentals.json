@@ -1,0 +1,1205 @@
+{
+    "topic": "Computer Fundamentals / कंप्यूटर मूलभूत ज्ञान",
+    "questions": [
+        {
+            "id": 1,
+            "question": "एक प्रोसेसर की क्लॉक दर __ में मापी जाती है/The clock rate of a processor is measured in: [Bangalore Univ BCA 2021]",
+            "options": [
+                "Milliseconds",
+                "Micro Hertz",
+                "Megabyte or Gigabyte",
+                "Megahertz or Gigahertz"
+            ],
+            "correctIndex": 3,
+            "explanation": "Processor clock rate is measured in Megahertz (MHz) or Gigahertz (GHz)."
+        },
+        {
+            "id": 2,
+            "question": "एक गीगाबाइट किसके बराबर है?/One Gigabyte is equal to: [Bangalore Univ BCA 2021]",
+            "options": [
+                "1024 bytes",
+                "Million megabytes",
+                "Thousand kilobytes",
+                "1024 megabytes"
+            ],
+            "correctIndex": 3,
+            "explanation": "1 Gigabyte = 1024 Megabytes."
+        },
+        {
+            "id": 3,
+            "question": "निम्न में से कौन सा शब्द स्कैनर से सम्बंधित है?/Which of the following is related to scanner? [Bangalore Univ BCA 2021]",
+            "options": [
+                "Laser",
+                "TWAIN",
+                "Cartridge",
+                "Media"
+            ],
+            "correctIndex": 0,
+            "explanation": "Laser technology is related to scanners for reading/scanning documents."
+        },
+        {
+            "id": 4,
+            "question": "इनमे से कौन सा विकल्प आपके लिखे हुए कार्य को बदलने में सहायक होता है?/Which option helps to modify written work? [Bangalore Univ BCA 2021]",
+            "options": [
+                "Save",
+                "Edit",
+                "File",
+                "Close"
+            ],
+            "correctIndex": 1,
+            "explanation": "Edit option helps to modify written content."
+        },
+        {
+            "id": 5,
+            "question": "निम्न में से कौन से DOS में फाइल एक्सटेंशन हैं?/Which are file extensions in DOS?",
+            "options": [
+                "EXE",
+                "BAT",
+                "COM",
+                "All of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "EXE, BAT, and COM are all file extensions used in DOS."
+        },
+        {
+            "id": 6,
+            "question": "हर बार जब हम अपना कंप्यूटर खोलते हैं, यह कण्ट्रोल फाइल चेक करेगा –/Every time we start the computer, it checks control files – [IBPS PO 2025]",
+            "options": [
+                "Command.com, io.sys, msdos.sys",
+                "Command.com, io.sys",
+                "Command.com, date.com, dir.com",
+                "Chkdsk.exe"
+            ],
+            "correctIndex": 0,
+            "explanation": "On boot, the computer checks Command.com, io.sys, and msdos.sys control files."
+        },
+        {
+            "id": 7,
+            "question": "डॉ.इ.एफ़ कॉड ने डेटाबेस रिलेशन के कितने नियम बताए?/Dr. E.F. Codd defined how many database relational rules? [IBPS PO 2025]",
+            "options": [
+                "8",
+                "10",
+                "12",
+                "15"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dr. E.F. Codd defined 12 rules for relational databases."
+        },
+        {
+            "id": 8,
+            "question": "निम्नलिखित में से कौन सा कंप्यूटर का सबसे छोटा रूप है?/Which is the smallest form of computer?",
+            "options": [
+                "Notebook",
+                "Laptop",
+                "Desktop",
+                "Workstation"
+            ],
+            "correctIndex": 0,
+            "explanation": "Notebook is the smallest form among the listed computers."
+        },
+        {
+            "id": 9,
+            "question": "यदि आप Windows 98 को Windows XP से बदल देते हैं, तो वास्तव में आप _____ करते हैं?/If you replace Windows 98 with Windows XP, you are doing? [CDS 2021]",
+            "options": [
+                "Upstart",
+                "Patch",
+                "Downgrade",
+                "Upgrade"
+            ],
+            "correctIndex": 3,
+            "explanation": "Replacing an older OS with a newer version is called an Upgrade."
+        },
+        {
+            "id": 10,
+            "question": "एक कंप्यूटर में CPU ____ का उदाहरण है?/In a computer, CPU is an example of? [CDS 2021]",
+            "options": [
+                "Hardware",
+                "Software",
+                "Input Device",
+                "A Program"
+            ],
+            "correctIndex": 0,
+            "explanation": "CPU is a hardware component of the computer."
+        },
+        {
+            "id": 11,
+            "question": "निम्न में से कौन एक वैध मेमोरी यूनिट नहीं है?/Which is NOT a valid memory unit? [CDS 2021]",
+            "options": [
+                "ILB",
+                "KB",
+                "YB",
+                "PB"
+            ],
+            "correctIndex": 0,
+            "explanation": "ILB is not a valid memory unit. KB, YB (Yottabyte) and PB (Petabyte) are valid."
+        },
+        {
+            "id": 12,
+            "question": "कौन सा मेनू टाइप ड्रॉप डाउन मेनू भी कहलाता है?/Which menu type is also called dropdown menu? [CDS 2021]",
+            "options": [
+                "Fly but",
+                "Cascading",
+                "Pop down",
+                "Pull down"
+            ],
+            "correctIndex": 3,
+            "explanation": "Pull down menu is also known as dropdown menu."
+        },
+        {
+            "id": 13,
+            "question": "कंप्यूटरों द्वारा डेटा को जानकारी में बदलने की प्रक्रिया का नाम?/Process of converting data into information? [CDS 2021]",
+            "options": [
+                "Programming",
+                "Storing",
+                "Organization",
+                "Processing"
+            ],
+            "correctIndex": 3,
+            "explanation": "Processing is the process of converting data into information."
+        },
+        {
+            "id": 14,
+            "question": "इंटरनेट साइट पर किस प्रकार की मॉनीटर फाइलें प्रयोग और स्वीकार की जाती हैं?/What type of monitor files are used on internet sites? [CDS 2021]",
+            "options": [
+                "Smartware",
+                "Phishes",
+                "Cookies",
+                "Trojans"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cookies are used by internet sites to monitor and store user information."
+        },
+        {
+            "id": 15,
+            "question": "प्राइमरी मेमोरी स्टोर करती है?/Primary memory stores: [CDS 2021]",
+            "options": [
+                "Result",
+                "Data",
+                "Programs",
+                "All of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "Primary memory stores results, data, and programs."
+        },
+        {
+            "id": 16,
+            "question": "DOS में एक डिस्क का नाम स्थापित करने के लिए कौन सी कमांड?/Which command sets disk name in DOS? [CDS 2021]",
+            "options": [
+                "VOLUME",
+                "VOL",
+                "LABEL",
+                "DISKLABEL"
+            ],
+            "correctIndex": 2,
+            "explanation": "LABEL command is used to set a disk name in DOS."
+        },
+        {
+            "id": 17,
+            "question": "पास्कलाइन मशीनों के किस प्रकार में से है?/Which type are Pascaline machines? [CDS 2021]",
+            "options": [
+                "Mechanical Machine",
+                "Arithmetic Machine",
+                "Division Machine",
+                "Difference Machine"
+            ],
+            "correctIndex": 1,
+            "explanation": "Pascaline is an Arithmetic Machine invented by Blaise Pascal."
+        },
+        {
+            "id": 18,
+            "question": "बग (Bug) का क्या मतलब है?/What is the meaning of a Bug? [CDS 2021]",
+            "options": [
+                "Logical error in a program",
+                "Syntax error in a program",
+                "Run time error",
+                "Both A and B"
+            ],
+            "correctIndex": 0,
+            "explanation": "A Bug refers to a logical error in a program."
+        },
+        {
+            "id": 19,
+            "question": "MS Word Document में प्रयोग होने वाला न्यू डिफ़ॉल्ट फॉन्ट कौन सा है?/New default font in MS Word? [CDS 2021]",
+            "options": [
+                "Times New Roman",
+                "Arial",
+                "Algerian",
+                "Calibri"
+            ],
+            "correctIndex": 3,
+            "explanation": "Calibri is the new default font in MS Word documents."
+        },
+        {
+            "id": 20,
+            "question": "डेकोरेटिव टेक्स्ट जिसे आप एक डॉक्यूमेंट में जोड़ सकते हैं, क्या कहलाता है?/Decorative text added in document is called?",
+            "options": [
+                "Table",
+                "Symbol",
+                "WordArt",
+                "Image"
+            ],
+            "correctIndex": 2,
+            "explanation": "WordArt is used to add decorative text in documents."
+        },
+        {
+            "id": 21,
+            "question": "____ दूरसंचार उपकरण का एक उदाहरण है?/____ is an example of telecommunication device?",
+            "options": [
+                "Modem",
+                "Printer",
+                "Keyboard",
+                "Scanner"
+            ],
+            "correctIndex": 0,
+            "explanation": "Modem is an example of a telecommunication device."
+        },
+        {
+            "id": 22,
+            "question": "ISDN का पूर्ण रूप है?/Full form of ISDN?",
+            "options": [
+                "Integrated Services Digital Network",
+                "Internal Services Data Network",
+                "Internet Services Digital Network",
+                "Integrated System Digital Network"
+            ],
+            "correctIndex": 0,
+            "explanation": "ISDN stands for Integrated Services Digital Network."
+        },
+        {
+            "id": 23,
+            "question": "पोर्टेबल और सुविधाजनक कंप्यूटर जो यात्रियों के लिए है, को ____ कहा जाता है?/Portable computer for travelers is called? [CDS 2021]",
+            "options": [
+                "Super Computer",
+                "Laptop",
+                "Mini Computer",
+                "File Server"
+            ],
+            "correctIndex": 1,
+            "explanation": "Laptop is a portable and convenient computer for travelers."
+        },
+        {
+            "id": 24,
+            "question": "=SUM(S3:S10) किसका उदाहरण है?/=SUM(S3:S10) is an example of?",
+            "options": [
+                "Function",
+                "Formula",
+                "Cell address",
+                "Value"
+            ],
+            "correctIndex": 1,
+            "explanation": "=SUM(S3:S10) is an example of a Formula in spreadsheets."
+        },
+        {
+            "id": 25,
+            "question": "पहला कंप्यूटर जिसका इस्तेमाल अपने कार्यक्रम स्टोर करने के लिए किया गया?/First computer used to store programs?",
+            "options": [
+                "EDSAC",
+                "ENIAC",
+                "UNIVAC",
+                "EDVAC"
+            ],
+            "correctIndex": 0,
+            "explanation": "EDSAC (Electronic Delay Storage Automatic Calculator) was the first stored-program computer."
+        },
+        {
+            "id": 26,
+            "question": "किसने विश्लेषणात्मक इंजन का आविष्कार किया?/Who invented the Analytical Engine? [SSC 2024]",
+            "options": [
+                "Charles Babbage",
+                "Alan Turing",
+                "Blaise Pascal",
+                "John Von Neumann"
+            ],
+            "correctIndex": 0,
+            "explanation": "Charles Babbage invented the Analytical Engine."
+        },
+        {
+            "id": 27,
+            "question": "जब आप किसी जानकारी को कट या कॉपी करते हैं तो वह _____ में जाता है?/Cut or copied information goes to? [SSC 2024]",
+            "options": [
+                "Clipboard",
+                "Hard Disk",
+                "RAM",
+                "Desktop"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cut or copied information goes to the Clipboard."
+        },
+        {
+            "id": 28,
+            "question": "निम्नलिखित में से क्या प्रिंटर से सम्बंधित है?/Which is related to printer? [SSC 2024]",
+            "options": [
+                "DVD",
+                "Cartridge",
+                "Hard-disk",
+                "Keyboard"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cartridge (ink/toner) is related to printers."
+        },
+        {
+            "id": 29,
+            "question": "192.9.200.155 से क्या सम्बंधित है?/Which is related to 192.9.200.155? [SSC 2024]",
+            "options": [
+                "Hardware Address",
+                "Monitor Address",
+                "IP Address",
+                "All of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "192.9.200.155 is an IP Address."
+        },
+        {
+            "id": 30,
+            "question": "Keyboard का उपयोग क्यों होता है?/Why is keyboard used? [SSC 2024]",
+            "options": [
+                "कंप्यूटर में इनपुट टेक्स्ट और अंक डालने और आदेश भेजने के लिए",
+                "अपने कंप्यूटर के साथ नयी कुंजी बनाने के लिए",
+                "कंप्यूटर को खोलने के लिए",
+                "चित्र बनाने के लिए"
+            ],
+            "correctIndex": 0,
+            "explanation": "Keyboard is used to input text, numbers, and send commands to the computer."
+        },
+        {
+            "id": 31,
+            "question": "माइक्रोसॉफ्ट के प्रमुख कौन हैं?/Who is the head of Microsoft? [SSC 2024]",
+            "options": [
+                "Bill Gates",
+                "Steve Jobs",
+                "Satya Nadella",
+                "Mark Zuckerberg"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bill Gates is the founder and former head of Microsoft."
+        },
+        {
+            "id": 32,
+            "question": "कौन सा पद फॉण्ट से सम्बंधित नहीं है?/Which term is not related to font? [SSC 2024]",
+            "options": [
+                "Font face",
+                "Font size",
+                "Font color",
+                "Font grammar"
+            ],
+            "correctIndex": 3,
+            "explanation": "Font grammar is not a valid term related to fonts."
+        },
+        {
+            "id": 33,
+            "question": "MS Word का वैध प्रारूप _____ है/Valid format of MS Word is: [SSC 2024]",
+            "options": [
+                ".jpeg",
+                ".png",
+                ".doc",
+                ".exe"
+            ],
+            "correctIndex": 2,
+            "explanation": ".doc is the valid file format for MS Word documents."
+        },
+        {
+            "id": 34,
+            "question": "पेज साइज़ और मार्जिन बदलने के लिए कौन सा विकल्प?/Which option changes page size and margin? [SSC 2024]",
+            "options": [
+                "Page Layout",
+                "View",
+                "Tools",
+                "Data"
+            ],
+            "correctIndex": 0,
+            "explanation": "Page Layout option is used to change page size and margins."
+        },
+        {
+            "id": 35,
+            "question": "निम्नलिखित में से क्या कंप्यूटर सॉफ्टवेयर का उदाहरण है?/Which is an example of computer software? [SSC 2024]",
+            "options": [
+                "Laser printer",
+                "MySQL",
+                "Joystick",
+                "All of these"
+            ],
+            "correctIndex": 1,
+            "explanation": "MySQL is a database software. Laser printer and Joystick are hardware."
+        },
+        {
+            "id": 36,
+            "question": "कंप्यूटरों में DTP का पूर्ण रूप क्या है?/Full form of DTP in computers? [SSC 2024]",
+            "options": [
+                "Desktop Publishing",
+                "Data Transfer Protocol",
+                "Digital Text Processing",
+                "Document Transfer Program"
+            ],
+            "correctIndex": 0,
+            "explanation": "DTP stands for Desktop Publishing."
+        },
+        {
+            "id": 37,
+            "question": "निम्नलिखित में से क्या एप्लीकेशन सॉफ्टवेयर का उदाहरण है?/Which is an example of application software?",
+            "options": [
+                "Microsoft Windows",
+                "Linux",
+                "Mac OSX",
+                "MS Word 2007"
+            ],
+            "correctIndex": 3,
+            "explanation": "MS Word 2007 is an application software. Windows, Linux, Mac OSX are operating systems."
+        },
+        {
+            "id": 38,
+            "question": "MOZILLA FIREFOX एक ____ है/MOZILLA FIREFOX is a: [IBPS 2025]",
+            "options": [
+                "Spreadsheet",
+                "Word processing software",
+                "Web browser",
+                "Programming software"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mozilla Firefox is a Web browser."
+        },
+        {
+            "id": 39,
+            "question": "किस प्रोग्रामिंग भाषा को निम्न स्तर भाषा के रूप में वर्गीकृत किया गया है?/Which programming language is classified as low-level? [IBPS 2025]",
+            "options": [
+                "Basic, COBOL, FORTRAN",
+                "Prolog 2, Expert Systems",
+                "Knowledge Based system",
+                "Assembly language"
+            ],
+            "correctIndex": 3,
+            "explanation": "Assembly language is classified as a low-level programming language."
+        },
+        {
+            "id": 40,
+            "question": "वह डिवाइस जो कंप्यूटर में डेटा फीड और स्वीकार कर सकता है, _____ कहलाता है?/Device that feeds and receives data? [IBPS 2025]",
+            "options": [
+                "ALU",
+                "CPU",
+                "Input-output device",
+                "All of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "Input-output device can both feed data to and receive data from a computer."
+        },
+        {
+            "id": 41,
+            "question": "एक मोशन पाथ क्या है?/What is a motion path? [IBPS 2025]",
+            "options": [
+                "Animation entrance effect type",
+                "Advancing slides method",
+                "Method of item deviation on slide",
+                "All of the above"
+            ],
+            "correctIndex": 2,
+            "explanation": "A motion path is a method of item deviation/movement on a slide."
+        },
+        {
+            "id": 42,
+            "question": "____ कंप्यूटर के लिए एक प्राथमिक आउटपुट डिवाइस है/____ is primary output device for computer: [IBPS 2025]",
+            "options": [
+                "Video monitor",
+                "Printer",
+                "Keyboard",
+                "Mouse"
+            ],
+            "correctIndex": 0,
+            "explanation": "Video monitor is the primary output device for a computer."
+        },
+        {
+            "id": 43,
+            "question": "FORTRAN प्रोग्रामिंग लैंग्वेज _____ के लिए अधिक उपयुक्त है/FORTRAN is best suited for: [IBPS 2025]",
+            "options": [
+                "Business applications",
+                "Marketing applications",
+                "Scientific applications",
+                "None of the above"
+            ],
+            "correctIndex": 2,
+            "explanation": "FORTRAN (FORmula TRANslation) is best suited for Scientific applications."
+        },
+        {
+            "id": 44,
+            "question": "जावा लैंग्वेज किसके द्वारा पेश की गयी थी?/Java language was introduced by: [IBPS 2025]",
+            "options": [
+                "Sun Microsystem",
+                "IBM",
+                "Intel",
+                "Microsoft"
+            ],
+            "correctIndex": 0,
+            "explanation": "Java was introduced by Sun Microsystems (James Gosling)."
+        },
+        {
+            "id": 45,
+            "question": "एक अमेरिकी मानक कीबोर्ड ____ का अनुकरण करता है/An American standard keyboard models: [IBPS 2025]",
+            "options": [
+                "QWERTY model",
+                "104-model",
+                "108-model",
+                "All of these"
+            ],
+            "correctIndex": 0,
+            "explanation": "American standard keyboard follows the QWERTY model."
+        },
+        {
+            "id": 46,
+            "question": "निम्नलिखित में से किसे कंप्यूटर में मेमोरी से संदर्भित किया जाता है?/Which is referred as memory in computer?",
+            "options": [
+                "VGA",
+                "CPU",
+                "RAM",
+                "All of these"
+            ],
+            "correctIndex": 2,
+            "explanation": "RAM (Random Access Memory) is referred to as the memory in a computer."
+        },
+        {
+            "id": 47,
+            "question": "प्रिंट प्रीव्यू किस एक्शन के लिए उपयोगी है?/Print preview is useful for: [RRB 2025]",
+            "options": [
+                "Coloring document",
+                "Saving document",
+                "Deleting document",
+                "Viewing document before printing"
+            ],
+            "correctIndex": 3,
+            "explanation": "Print preview is useful for viewing a document before printing."
+        },
+        {
+            "id": 48,
+            "question": "MS Excel के डिफ़ॉल्ट स्तम्भ की चौड़ाई क्या है?/Default column width of MS Excel is: [RRB 2025]",
+            "options": [
+                "8.43 characters",
+                "10 characters",
+                "12 characters",
+                "6 characters"
+            ],
+            "correctIndex": 0,
+            "explanation": "Default column width of MS Excel is 8.43 characters (64 pixels)."
+        },
+        {
+            "id": 49,
+            "question": "_____ द्वारा हम कंप्यूटर में टेक्स्ट दर्ज कर सकते हैं/We can enter text via:",
+            "options": [
+                "Keyboard",
+                "Mouse",
+                "Monitor",
+                "Printer"
+            ],
+            "correctIndex": 0,
+            "explanation": "We can enter text into a computer using a Keyboard."
+        },
+        {
+            "id": 50,
+            "question": "हम किसके द्वारा कर्सर को जल्दी से हिला सकते हैं?/We can move cursor quickly by: [RRB 2025]",
+            "options": [
+                "Keyboard",
+                "Monitor",
+                "Mouse",
+                "Printer"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mouse is used to move the cursor quickly on screen."
+        },
+        {
+            "id": 51,
+            "question": "निम्नलिखित में से क्या एक इनपुट डिवाइस नहीं है?/Which is NOT an input device? [RRB 2025]",
+            "options": [
+                "Mouse",
+                "Monitor",
+                "Keyboard",
+                "Microphone"
+            ],
+            "correctIndex": 1,
+            "explanation": "Monitor is an output device, not an input device."
+        },
+        {
+            "id": 52,
+            "question": "C, C++, Java, BASIC और COBOL _____ लैंग्वेज का उदाहरण है?/These are examples of:",
+            "options": [
+                "Low-level language",
+                "High-level language",
+                "System programming",
+                "Computer"
+            ],
+            "correctIndex": 1,
+            "explanation": "C, C++, Java, BASIC and COBOL are examples of High-level languages."
+        },
+        {
+            "id": 53,
+            "question": "कम्पाइलर के साथ निकटतम रूप से सम्बंधित कथन?/Which statement closely relates to compiler? [LIC HFL 2022]",
+            "options": [
+                "Translator of source program to object code",
+                "Name of computer operator",
+                "Part of digital machine storing data",
+                "Boolean algebra operator"
+            ],
+            "correctIndex": 0,
+            "explanation": "A compiler translates source program to object code."
+        },
+        {
+            "id": 54,
+            "question": "कौन सी लैंग्वेज यूजर द्वारा डेटाबेस की जानकारी के लिए प्रयोग होती है?/Language used for database queries? [LIC HFL 2022]",
+            "options": [
+                "Query",
+                "Relationship",
+                "Structural",
+                "Compiler"
+            ],
+            "correctIndex": 0,
+            "explanation": "Query language (like SQL) is used by users for database queries."
+        },
+        {
+            "id": 55,
+            "question": "DBMS ऑपरेशन के लिए सबसे महत्वपूर्ण हार्डवेयर घटक?/Most important hardware for DBMS? [LIC HFL 2022]",
+            "options": [
+                "High resolution video display",
+                "Printer",
+                "High speed, large capacity disk",
+                "Plotter"
+            ],
+            "correctIndex": 2,
+            "explanation": "High speed, large capacity disk is most important for DBMS operations."
+        },
+        {
+            "id": 56,
+            "question": "FORTRAN किस वर्ष में पेश किया गया?/FORTRAN was introduced in year? [LIC HFL 2022]",
+            "options": [
+                "1950",
+                "1957",
+                "1960",
+                "1965"
+            ],
+            "correctIndex": 1,
+            "explanation": "FORTRAN was introduced in 1957."
+        },
+        {
+            "id": 57,
+            "question": "____ असेंबली लैंग्वेज प्रोग्राम को ऑब्जेक्ट प्रोग्राम में रूपांतरित करता है?/What translates assembly to object program? [LIC HFL 2022]",
+            "options": [
+                "Compiler",
+                "Assembler",
+                "RAM",
+                "Linker"
+            ],
+            "correctIndex": 1,
+            "explanation": "Assembler converts assembly language program to object program (machine code)."
+        },
+        {
+            "id": 58,
+            "question": "VIRUS का क्या अर्थ है?/What is the meaning of VIRUS? [LIC HFL 2022]",
+            "options": [
+                "Vital Information Resources Under Siege",
+                "Virtual Information Resources Under System",
+                "Viral Internet Resource Under Security",
+                "Very Important Resource Under Security"
+            ],
+            "correctIndex": 0,
+            "explanation": "VIRUS stands for Vital Information Resources Under Siege."
+        },
+        {
+            "id": 59,
+            "question": "निम्नलिखित में से क्या इलेक्ट्रॉनिक पेमेंट सिस्टम के लिए थ्रेट है?/What is a threat to electronic payment system?",
+            "options": [
+                "Trojan horse",
+                "Computer Virus",
+                "Computer Worms",
+                "All of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "Trojan horse, Computer Virus, and Computer Worms are all threats to electronic payment systems."
+        },
+        {
+            "id": 60,
+            "question": "____ व्यक्तियों द्वारा पहचान बदलकर गोपनीय जानकारी प्राप्त करने के लिए उपयोग किया जाता है?/Used to get confidential info by impersonation? [Delhi Police 2023]",
+            "options": [
+                "Phishing trips",
+                "Computer virus",
+                "Virus",
+                "Phishing scams"
+            ],
+            "correctIndex": 3,
+            "explanation": "Phishing scams are used by impersonating others to obtain confidential information."
+        },
+        {
+            "id": 61,
+            "question": "डिजिटल सिग्नेचर में, प्राइवेट key ____ के लिए और पब्लिक key ____ के लिए होती है?/In digital signature, private key for ____ and public key for ____? [Delhi Police 2023]",
+            "options": [
+                "encryption, decryption",
+                "decryption, encryption",
+                "plaintext, ciphertext",
+                "ciphertext, plaintext"
+            ],
+            "correctIndex": 0,
+            "explanation": "In digital signature, private key is used for encryption and public key for decryption."
+        },
+        {
+            "id": 62,
+            "question": "कंप्यूटर को हैकर से सुरक्षा के लिए, आपको टर्न ऑन करना चाहिए ____/To protect from hackers, turn on ____. [Delhi Police 2023]",
+            "options": [
+                "Firewall",
+                "Script",
+                "VLC",
+                "AUP"
+            ],
+            "correctIndex": 0,
+            "explanation": "Firewall should be turned on to protect computer from hackers."
+        },
+        {
+            "id": 63,
+            "question": "स्टोरेज डिवाइस में मुख्य फोल्डर को क्या कहते हैं?/What is the main folder called?",
+            "options": [
+                "Platform",
+                "Interface",
+                "Root Directory",
+                "Homepage"
+            ],
+            "correctIndex": 2,
+            "explanation": "The main folder in a storage device is called the Root Directory."
+        },
+        {
+            "id": 64,
+            "question": "विन्डोज का आकार घटाने में पहला कदम?/First step to minimize a window?",
+            "options": [
+                "Point to the title bar",
+                "Drop view menu to display toolbar",
+                "Point to any corner or edge",
+                "Drop view menu and change icons"
+            ],
+            "correctIndex": 2,
+            "explanation": "To resize a window, the first step is to point to any corner or edge."
+        },
+        {
+            "id": 65,
+            "question": "डेटा कितनी तेजी से ले जाया जाता है, इसके लिए किस टर्म का प्रयोग?/Term to measure data transfer speed? [MP Patwari 2023]",
+            "options": [
+                "Data per Unit",
+                "Bits per Second",
+                "Bits per Over",
+                "Ratio per Bit"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bits per Second (bps) is used to measure data transfer speed."
+        },
+        {
+            "id": 66,
+            "question": "पास्कलाइन किस प्रकार की मशीन है?/Pascaline is which type of machine? [MP Patwari 2023]",
+            "options": [
+                "Mechanical machine",
+                "Arithmetic machine",
+                "Division machine",
+                "Other machine"
+            ],
+            "correctIndex": 1,
+            "explanation": "Pascaline is an Arithmetic machine invented by Blaise Pascal."
+        },
+        {
+            "id": 67,
+            "question": "विन्डोज डेस्कटॉप पर एप्लीकेशन और डॉक्यूमेंट्स को ____ द्वारा दर्शाया जाता है/Applications on desktop are represented by ____. [MP Patwari 2023]",
+            "options": [
+                "Icons",
+                "Text",
+                "Numbers",
+                "Colors"
+            ],
+            "correctIndex": 0,
+            "explanation": "Applications and documents on Windows desktop are represented by Icons."
+        },
+        {
+            "id": 68,
+            "question": "डिलीट किये गए आइटम्स रीसायकल बिन में रहते हैं, जब तक _____/Deleted items remain in Recycle Bin until ____.",
+            "options": [
+                "Another user logs on",
+                "Computer is shut down",
+                "End of the day",
+                "You empty it"
+            ],
+            "correctIndex": 3,
+            "explanation": "Deleted items remain in Recycle Bin until you empty it."
+        },
+        {
+            "id": 69,
+            "question": "डेस्कटॉप पर एक छोटे से तीर या निमिष प्रतीक को ____ कहते हैं/Small blinking symbol on desktop is called ____. [SBI Clerk 2025]",
+            "options": [
+                "Cursor",
+                "Icon",
+                "Widget",
+                "Pointer"
+            ],
+            "correctIndex": 0,
+            "explanation": "The small blinking symbol on the desktop is called a Cursor."
+        },
+        {
+            "id": 70,
+            "question": "CPU किसका उदाहरण है/CPU is an example of? [SBI Clerk 2025]",
+            "options": [
+                "Peripheral",
+                "An output unit",
+                "Software",
+                "Hardware"
+            ],
+            "correctIndex": 3,
+            "explanation": "CPU is an example of Hardware."
+        },
+        {
+            "id": 71,
+            "question": "उपयोगकर्ता और ऑपरेटिंग सिस्टम के बीच परस्पर क्रिया को क्या नियंत्रित करता है?/What controls interaction between user and OS? [SBI Clerk 2025]",
+            "options": [
+                "User Interface",
+                "Language Translator",
+                "Platform",
+                "Screensaver"
+            ],
+            "correctIndex": 0,
+            "explanation": "User Interface controls the interaction style between user and operating system."
+        },
+        {
+            "id": 72,
+            "question": "असेंबली लैंग्वेज को मशीन लैंग्वेज में बदलने वाला ट्रांसलेटर?/Translator from assembly to machine language? [SBI Clerk 2025]",
+            "options": [
+                "Compiler",
+                "Interpreter",
+                "Debugger",
+                "Assembler"
+            ],
+            "correctIndex": 3,
+            "explanation": "Assembler translates assembly language to machine language."
+        },
+        {
+            "id": 73,
+            "question": "माइक्रोप्रोसेसर को ____ भी कहा जाता है/Microprocessor is also called ____. [SBI Clerk 2025]",
+            "options": [
+                "Microchip",
+                "SMPS",
+                "Macroprocessor",
+                "Calculator"
+            ],
+            "correctIndex": 0,
+            "explanation": "Microprocessor is also called Microchip."
+        },
+        {
+            "id": 74,
+            "question": "मदरबोर्ड को ____ के रूप में भी जाना जाता है/Motherboard is also called ____. [SBI Clerk 2025]",
+            "options": [
+                "Electronic Board (EB)",
+                "Simulating Board (SB)",
+                "Printed Circuit Board (PCB)",
+                "Combined Device Board (CDB)"
+            ],
+            "correctIndex": 2,
+            "explanation": "Motherboard is also known as Printed Circuit Board (PCB)."
+        },
+        {
+            "id": 75,
+            "question": "डाटा प्रोसेसिंग चक्र में ____ सम्मिलित होता है?/Data processing cycle includes ____. [SBI Clerk 2025]",
+            "options": [
+                "Input and output cycle",
+                "Input, output, and processing cycle",
+                "Output and processing cycle",
+                "Data meaning and refining cycle"
+            ],
+            "correctIndex": 1,
+            "explanation": "Data processing cycle includes Input, Output, and Processing cycle."
+        },
+        {
+            "id": 76,
+            "question": "एक हार्डवेयर जिसमें डाटा भंडारित किया जा सकता है, उसे क्या कहते हैं?/Hardware for data storage is called? [SBI Clerk 2025]",
+            "options": [
+                "Registers",
+                "BUS",
+                "Control Unit",
+                "Memory"
+            ],
+            "correctIndex": 3,
+            "explanation": "Memory is the hardware where data can be stored."
+        },
+        {
+            "id": 77,
+            "question": "कंप्यूटर सिस्टम के साथ किन माप इकाइयों का प्रयोग होता है?/Measurement units used with computers? [SBI Clerk 2025]",
+            "options": [
+                "Byte",
+                "Kilobyte",
+                "Megabyte",
+                "All of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "Byte, Kilobyte, and Megabyte are all measurement units used with computers."
+        },
+        {
+            "id": 78,
+            "question": "मल्टी प्रोसेसर की क्या विशेषताएं हैं?/Features of multiprocessor? [SBI Clerk 2025]",
+            "options": [
+                "It increases stability",
+                "It distributes tasks",
+                "It saves money compared to multi-single systems",
+                "All of these"
+            ],
+            "correctIndex": 3,
+            "explanation": "All of these are features of multiprocessor systems."
+        },
+        {
+            "id": 79,
+            "question": "कंप्यूटर को कितनी पीढ़ियों में वर्गीकृत किया जा सकता है?/In how many generations can computers be classified?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctIndex": 2,
+            "explanation": "Computers are classified into 5 generations."
+        },
+        {
+            "id": 80,
+            "question": "ALU ____ कार्य करता है/ALU performs which operation? [FCI MANAGER 2022]",
+            "options": [
+                "ASCII",
+                "Logarithm",
+                "Algorithm",
+                "Arithmetic"
+            ],
+            "correctIndex": 3,
+            "explanation": "ALU performs Arithmetic (and Logic) operations."
+        },
+        {
+            "id": 81,
+            "question": "निम्नलिखित में से क्या आम तौर पर महंगा होता है?/Which is generally more expensive? [FCI MANAGER 2022]",
+            "options": [
+                "Server",
+                "Notebook",
+                "Personal Computer",
+                "Mainframe"
+            ],
+            "correctIndex": 3,
+            "explanation": "Mainframe computers are generally the most expensive."
+        },
+        {
+            "id": 82,
+            "question": "____ विशेष रूप से डिज़ाइन कंप्यूटर है जो जटिल गणना तेजी से करता है/____ performs complex calculations very quickly. [FCI MANAGER 2022]",
+            "options": [
+                "Server",
+                "Supercomputer",
+                "Laptop",
+                "Mainframe"
+            ],
+            "correctIndex": 1,
+            "explanation": "Supercomputer is specially designed for complex calculations at very high speeds."
+        },
+        {
+            "id": 83,
+            "question": "Excel में सेल में सूत्र दर्ज करते समय किस ऑपरेटर से शुरू करें?/Start formula in Excel with? [FCI MANAGER 2022]",
+            "options": [
+                "=",
+                "+",
+                "-",
+                "/"
+            ],
+            "correctIndex": 0,
+            "explanation": "In Excel, formulas must begin with the = (equals) sign."
+        },
+        {
+            "id": 84,
+            "question": "आधुनिक कंप्यूटर पहले के कंप्यूटर की तुलना में _____ हैं/Modern computers are ___ compared to earlier ones.",
+            "options": [
+                "Faster and bigger",
+                "Less reliable",
+                "Bigger and stronger",
+                "Faster and smaller"
+            ],
+            "correctIndex": 3,
+            "explanation": "Modern computers are faster and smaller compared to earlier computers."
+        },
+        {
+            "id": 85,
+            "question": "पांचवीं पीढी के कंप्यूटर की मुख्य विशिष्ट सुविधा?/Main feature of 5th generation computers? [RBI ASSISTANT 2022]",
+            "options": [
+                "Liberal and microprocessor",
+                "Artificial Intelligence",
+                "Very low cost",
+                "Invisibility"
+            ],
+            "correctIndex": 1,
+            "explanation": "Artificial Intelligence is the main feature of fifth generation computers."
+        },
+        {
+            "id": 86,
+            "question": "यूनिकोड क्या है?/What is Unicode? [RBI ASSISTANT 2022]",
+            "options": [
+                "Standard font",
+                "Software",
+                "Character encoding system",
+                "Keyboard layout"
+            ],
+            "correctIndex": 2,
+            "explanation": "Unicode is a character encoding system that supports all languages."
+        },
+        {
+            "id": 87,
+            "question": "निम्नलिखित में से क्या अब एक PC के रूप में उपलब्ध है?/Which is now available as a PC?",
+            "options": [
+                "Mainframe",
+                "Microcomputer",
+                "Minicomputer",
+                "Both b and c"
+            ],
+            "correctIndex": 1,
+            "explanation": "Microcomputer is now available as a PC (Personal Computer)."
+        },
+        {
+            "id": 88,
+            "question": "एक निजी कंप्यूटर ___ की कंप्यूटिंग जरूरतों को पूरा करने के लिए बना है/A personal computer is designed for: [SSC CGL 2024]",
+            "options": [
+                "Individual/व्यक्तिगत",
+                "Department",
+                "City",
+                "Company"
+            ],
+            "correctIndex": 0,
+            "explanation": "A personal computer is designed to meet the computing needs of an individual."
+        },
+        {
+            "id": 89,
+            "question": "डेडिकेटेड कंप्यूटर का अर्थ?/Meaning of dedicated computer? [SSC CGL 2024]",
+            "options": [
+                "Has no OS",
+                "Used by one person",
+                "Designed for one dedicated purpose",
+                "All of the above"
+            ],
+            "correctIndex": 2,
+            "explanation": "A dedicated computer is designed for one and only one specific purpose."
+        },
+        {
+            "id": 90,
+            "question": "सॉफ्टवेयर की दो प्रमुख श्रेणियां कौन सी हैं?/Two major categories of software include? [SSC CGL 2024]",
+            "options": [
+                "Operating system and utility",
+                "Personal productivity and system",
+                "System software and application software",
+                "System software and utility software"
+            ],
+            "correctIndex": 2,
+            "explanation": "Two major categories of software are System software and Application software."
+        },
+        {
+            "id": 91,
+            "question": "कंप्यूटर में ____ बैकअप में हर प्रोग्राम, डाटा और सिस्टम फाइल कॉपी शामिल होती है/____ backup includes every file. [SSC CGL 2024]",
+            "options": [
+                "Restoration",
+                "Bootstrap",
+                "Differential",
+                "Full"
+            ],
+            "correctIndex": 3,
+            "explanation": "Full backup includes a copy of every program, data, and system file."
+        },
+        {
+            "id": 92,
+            "question": "SRAM से तात्पर्य है?/SRAM stands for? [SSC CGL 2024]",
+            "options": [
+                "Static Random Access Memory",
+                "System Random Access Memory",
+                "Standard RAM",
+                "Simultaneous RAM"
+            ],
+            "correctIndex": 0,
+            "explanation": "SRAM stands for Static Random Access Memory."
+        },
+        {
+            "id": 93,
+            "question": "कौन सी विन्डोज यूटिलिटी अवांछित फाइलें मिटाती है?/Which Windows utility deletes unwanted files? [SSC CGL 2024]",
+            "options": [
+                "Disk clean-up",
+                "Scanning",
+                "Backup or restore wizard",
+                "Disk defragmenter"
+            ],
+            "correctIndex": 0,
+            "explanation": "Disk clean-up is the Windows utility that deletes unwanted files."
+        },
+        {
+            "id": 94,
+            "question": "डॉक्यूमेंट के मार्जिन पर दिखने वाले कमेंट्स किस आकार के?/Comments on document margins are which shape? [SSC CGL 2024]",
+            "options": [
+                "Square shape",
+                "Round shape",
+                "Balloon shape",
+                "Triangular shape"
+            ],
+            "correctIndex": 2,
+            "explanation": "Comments appearing on document margins are in balloon shape."
+        },
+        {
+            "id": 95,
+            "question": "_____ संदेशों के आदान-प्रदान के लिए डिजिटल संदेश प्रारूपों और नियमों की प्रणाली है/____ is a system of digital message formats and rules. [SSC CGL 2024]",
+            "options": [
+                "Communication protocol",
+                "Router",
+                "Modem",
+                "DNS"
+            ],
+            "correctIndex": 0,
+            "explanation": "Communication protocol is a system of digital message formats and rules."
+        },
+        {
+            "id": 96,
+            "question": "TCP/IP पर फाइलों के आदान-प्रदान के लिए प्रोटोकॉल?/Protocol for file transfer on TCP/IP? [SSC CGL 2024]",
+            "options": [
+                "FTP",
+                "TCP",
+                "SMTP",
+                "HTTP"
+            ],
+            "correctIndex": 0,
+            "explanation": "FTP (File Transfer Protocol) is used for file exchange over TCP/IP."
+        },
+        {
+            "id": 97,
+            "question": "Ctrl + A शॉर्टकट key MS Word में क्या करती है?/What does Ctrl + A do in MS Word? [SSC CGL 2024]",
+            "options": [
+                "Selects entire content of the page",
+                "Opens a new document",
+                "Saves the document",
+                "Closes the document"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ctrl + A selects the entire content of the page in MS Word."
+        },
+        {
+            "id": 98,
+            "question": "McAfee एक उदाहरण है ____/McAfee is an example of ____. [SSC CGL 2024]",
+            "options": [
+                "Antivirus",
+                "Browser",
+                "Operating System",
+                "Database"
+            ],
+            "correctIndex": 0,
+            "explanation": "McAfee is an example of an Antivirus software."
+        },
+        {
+            "id": 99,
+            "question": "MS Word में Ctrl + Right Arrow किस लिए उपयोग होता है?/Ctrl + Right Arrow in MS Word? [SSC CGL 2024]",
+            "options": [
+                "Move cursor one word to right",
+                "Move cursor to end of line",
+                "Select one word",
+                "Delete one word"
+            ],
+            "correctIndex": 0,
+            "explanation": "Ctrl + Right Arrow moves the cursor one word to the right in MS Word."
+        },
+        {
+            "id": 100,
+            "question": "कौन सा कंप्यूटर वैज्ञानिक डेटा के विशाल मात्रा का विश्लेषण करने के लिए प्रयोग होता है?/Which computer type for large scientific data analysis?",
+            "options": [
+                "Mainframe",
+                "Server",
+                "Supercomputer",
+                "Mini computer"
+            ],
+            "correctIndex": 2,
+            "explanation": "Supercomputer is used for analyzing large scientific data and displaying patterns."
+        }
+    ]
+}
