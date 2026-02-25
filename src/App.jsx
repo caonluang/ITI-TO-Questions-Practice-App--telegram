@@ -104,21 +104,25 @@ function App() {
       const unverifiedQuestions = questions.filter(q => !q.verifiedByGroq);
       if (unverifiedQuestions.length === 0) return;
 
-      // Process in chunks of 5 to be responsive and quota-friendly
-      const batch = unverifiedQuestions.slice(0, 5);
-      const correctedBatch = await correctQuestionsBatch(batch);
+      try {
+        // Process in chunks of 5 to be responsive and quota-friendly
+        const batch = unverifiedQuestions.slice(0, 5);
+        const correctedBatch = await correctQuestionsBatch(batch);
 
-      if (correctedBatch.length > 0) {
-        setQuestions(prev => {
-          const newQuestions = [...prev];
-          correctedBatch.forEach(correctedQ => {
-            const idx = newQuestions.findIndex(q => q.id === correctedQ.id);
-            if (idx !== -1) {
-              newQuestions[idx] = { ...correctedQ, verifiedByGroq: true };
-            }
+        if (correctedBatch.length > 0) {
+          setQuestions(prev => {
+            const newQuestions = [...prev];
+            correctedBatch.forEach(correctedQ => {
+              const idx = newQuestions.findIndex(q => q.id === correctedQ.id);
+              if (idx !== -1) {
+                newQuestions[idx] = { ...correctedQ, verifiedByGroq: true };
+              }
+            });
+            return newQuestions;
           });
-          return newQuestions;
-        });
+        }
+      } catch (error) {
+        console.error("Background correction failed (ignoring):", error);
       }
     };
 
