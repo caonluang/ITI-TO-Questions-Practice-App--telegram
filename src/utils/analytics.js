@@ -33,10 +33,10 @@ export const calculateAnalytics = (results) => {
         correct,
         wrong,
         notAttempted,
-        accuracy: parseFloat(accuracy),
-        avgTime: parseFloat(avgTime),
-        fastestTime: parseFloat(fastestTime),
-        slowestTime: parseFloat(slowestTime),
+        accuracy: Number.parseFloat(accuracy),
+        avgTime: Number.parseFloat(avgTime),
+        fastestTime: Number.parseFloat(fastestTime),
+        slowestTime: Number.parseFloat(slowestTime),
     };
 };
 

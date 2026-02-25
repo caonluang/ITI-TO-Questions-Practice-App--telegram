@@ -27,7 +27,7 @@ export default async function handler(req, res) {
         const db = client.db('quiz_engine');
 
         // 1. Insert/Update Topic Metadata
-        const topicId = (fileName || quizData.topic).toLowerCase().replace(/[^a-z0-9_-]/g, '_');
+        const topicId = (fileName || quizData.topic).toLowerCase().replaceAll(/[^a-z0-9_-]/g, '_');
         await db.collection('topics').updateOne(
             { id: topicId },
             {

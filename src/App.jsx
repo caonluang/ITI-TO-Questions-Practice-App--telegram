@@ -5,7 +5,6 @@ import Timer from './components/Timer';
 import ExplanationPanel from './components/ExplanationPanel';
 import ProgressBar from './components/ProgressBar';
 import SessionSummary from './components/SessionSummary';
-import QuotaWidget from './components/QuotaWidget';
 import { useTimer } from './hooks/useTimer';
 import { useTelegram } from './hooks/useTelegram';
 import { getQuestionsByMode } from './utils/shuffle';
@@ -13,12 +12,10 @@ import { getQuizData } from './utils/topicStore';
 import { saveAttempt } from './utils/attemptLog';
 import { correctQuestionsBatch } from './utils/groqApi';
 
-// import './App.css';
-
 const TIMER_DURATION = 15; // 15 seconds per question
 
 function App() {
-  const { tg, user, showHaptic, isDark } = useTelegram();
+  const { showHaptic, isDark } = useTelegram();
 
   // State management
   const [screen, setScreen] = useState('home'); // home, quiz, result
@@ -34,6 +31,7 @@ function App() {
   const [startTime, setStartTime] = useState(null);
   const [focusMode, setFocusMode] = useState(false);
   const [highlightedOption, setHighlightedOption] = useState(null);
+  const [streak, setStreak] = useState(0);
 
   // Current question (declared early so hooks can reference it)
   const currentQuestion = questions[currentIndex];
@@ -252,6 +250,7 @@ function App() {
     setResults([]);
     setStartTime(Date.now());
     setScreen('quiz');
+    setStreak(0);
 
     // Start timer after a brief delay
     setTimeout(() => start(), 100);
@@ -273,6 +272,14 @@ function App() {
       timeTaken,
       status: isCorrect ? 'Correct' : 'Wrong',
     };
+
+    // Streak Logic
+    if (isCorrect) {
+      setStreak(prev => prev + 1);
+      if (streak >= 2) showHaptic('success'); // Haptic on 3+ streak
+    } else {
+      setStreak(0);
+    }
 
     setSelectedAnswer(answerIndex);
     setResults(prev => [...prev, newResult]);
@@ -302,6 +309,7 @@ function App() {
     setResults([]);
     setStartTime(Date.now());
     setScreen('quiz');
+    setStreak(0);
     setTimeout(() => start(), 100);
   };
 
@@ -310,8 +318,8 @@ function App() {
     const wrongOrSkipped = results.filter(
       r => r.status === 'Wrong' || r.status === 'Not Attempted'
     );
-    const wrongIds = wrongOrSkipped.map(r => r.questionId);
-    const retryQuestions = questions.filter(q => wrongIds.includes(q.id));
+    const wrongIds = new Set(wrongOrSkipped.map(r => r.questionId));
+    const retryQuestions = questions.filter(q => wrongIds.has(q.id));
 
     setQuestions(retryQuestions);
     setCurrentIndex(0);
@@ -320,6 +328,7 @@ function App() {
     setResults([]);
     setStartTime(Date.now());
     setScreen('quiz');
+    setStreak(0);
     setTimeout(() => start(), 100);
   };
 
@@ -333,7 +342,7 @@ function App() {
   // Handle early quiz submission
   const handleSubmitQuiz = () => {
     if (results.length === 0) return;
-    if (window.confirm('Are you sure you want to submit the quiz now?')) {
+    if (globalThis.confirm('Are you sure you want to submit the quiz now?')) {
       stop();
       saveAttempt(selectedTopicId, results, questions);
       setScreen('result');
@@ -403,8 +412,8 @@ function App() {
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    globalThis.addEventListener('keydown', handleKeyDown);
+    return () => globalThis.removeEventListener('keydown', handleKeyDown);
   }, [screen, showExplanation, selectedAnswer, highlightedOption, currentQuestion, isPaused, isRunning]);
 
 
@@ -444,6 +453,16 @@ function App() {
                 {isPaused ? '▶' : '||'}
               </button>
             </div>
+
+            {/* Streak Counter Badge */}
+            {streak > 1 && (
+              <div className="absolute top-16 right-0 z-20 animate-in slide-in-from-right duration-300">
+                <div className="bg-gradient-to-r from-orange-500 to-red-600 text-white font-black px-4 py-1 rounded-l-full shadow-lg border-y border-l border-white/20 flex items-center gap-2">
+                  <span className="text-lg animate-pulse">🔥</span>
+                  <span className="text-sm">{streak} Streak</span>
+                </div>
+              </div>
+            )}
 
             <div className="flex-1 flex flex-col">
               <div className="flex justify-between items-center mb-4">
@@ -519,7 +538,7 @@ function App() {
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
                         showHaptic('selection');
-                        handleJumpTo(parseInt(e.target.value, 10));
+                        handleJumpTo(Number.parseInt(e.target.value, 10));
                         e.target.value = '';
                       }
                     }}

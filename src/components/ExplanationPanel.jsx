@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { validateQuestion } from '../utils/groqApi';
-// import './ExplanationPanel.css';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { useTelegram } from '../hooks/useTelegram';
 
 const ExplanationPanel = ({
@@ -81,6 +80,18 @@ const ExplanationPanel = ({
             <div className="w-12 h-1.5 bg-tg-secondary rounded-full mx-auto mt-4" />
         </div>
     );
+};
+
+ExplanationPanel.propTypes = {
+    question: PropTypes.shape({
+        correctIndex: PropTypes.number.isRequired,
+        options: PropTypes.arrayOf(PropTypes.string).isRequired,
+        explanation: PropTypes.string.isRequired
+    }).isRequired,
+    selectedAnswer: PropTypes.number,
+    status: PropTypes.string.isRequired,
+    timeTaken: PropTypes.number.isRequired,
+    onNext: PropTypes.func.isRequired
 };
 
 export default ExplanationPanel;

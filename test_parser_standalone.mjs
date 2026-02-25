@@ -1,6 +1,6 @@
 const normalizeText = (text) => {
     if (!text) return '';
-    const rawLines = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
+    const rawLines = text.replaceAll(/\r\n/g, '\n').replaceAll(/\r/g, '\n').split('\n');
     let inCodeFence = false;
     return rawLines.map(line => {
         const trimmed = line.trim();
@@ -9,7 +9,7 @@ const normalizeText = (text) => {
             return line;
         }
         if (inCodeFence) return line;
-        let processed = line.replace(/\*\*/g, '').replace(/\*/g, '').trim();
+        let processed = line.replaceAll(/\*\*/g, '').replaceAll(/\*/g, '').trim();
         if (!processed) return '';
         if (/^\s*(Q|Que)?[\s.:]*\d+[\s.:\-)]+/i.test(processed)) {
             processed = processed.replace(/^\s*(Q|Que)?[\s.:]*\d+[\s.:\-)]+/i, 'Q: ').trim();

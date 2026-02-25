@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { calculateAnalytics, detectWeakAreas } from '../utils/analytics';
-import { generateReport, downloadReport } from '../utils/reportGenerator';
 import { getTopicLog, extractKeywords } from '../utils/attemptLog';
-// import './SessionSummary.css';
 import { useTelegram } from '../hooks/useTelegram';
 
 const SessionSummary = ({
@@ -46,12 +45,11 @@ const SessionSummary = ({
     const [copied, setCopied] = useState(false);
     const analytics = calculateAnalytics(results);
     const weakAreas = detectWeakAreas(results, questions);
-    const endTime = Date.now();
     const topicLog = getTopicLog(topicId);
     const attemptNumber = topicLog ? topicLog.attempts : 1;
 
-    const wrongQuestionIds = results.filter(r => r.status === 'Wrong' || r.status === 'Not Attempted').map(r => r.questionId);
-    const wrongQuestions = questions.filter(q => wrongQuestionIds.includes(q.id));
+    const wrongQuestionIds = new Set(results.filter(r => r.status === 'Wrong' || r.status === 'Not Attempted').map(r => r.questionId));
+    const wrongQuestions = questions.filter(q => wrongQuestionIds.has(q.id));
 
     const revisionKeywords = [];
     const seenKw = new Set();
@@ -80,8 +78,6 @@ const SessionSummary = ({
     };
 
     const grade = getGrade();
-    const wrongCount = results.filter(r => r.status === 'Wrong').length;
-    const notAttemptedCount = results.filter(r => r.status === 'Not Attempted').length;
 
     return (
         <div className="flex flex-col gap-6 p-4 animate-in fade-in zoom-in-95 duration-500 pb-10">
@@ -183,6 +179,17 @@ const SessionSummary = ({
             )}
         </div>
     );
+};
+
+SessionSummary.propTypes = {
+    results: PropTypes.array.isRequired,
+    questions: PropTypes.array.isRequired,
+    topic: PropTypes.string.isRequired,
+    topicId: PropTypes.string.isRequired,
+    startTime: PropTypes.number,
+    onRestart: PropTypes.func.isRequired,
+    onRetryWrong: PropTypes.func.isRequired,
+    onGoHome: PropTypes.func.isRequired
 };
 
 export default SessionSummary;

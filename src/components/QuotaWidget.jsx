@@ -6,7 +6,6 @@ import {
     getRemainingPercent,
     getUsedPercent,
 } from '../utils/quotaTracker';
-// import './QuotaWidget.css';
 
 const QuotaWidget = () => {
     const [quota, setQuota] = useState(getQuotaState());
@@ -25,8 +24,8 @@ const QuotaWidget = () => {
     // Also refresh on storage changes (when API call is made from another tab)
     useEffect(() => {
         const onStorage = () => setQuota(getQuotaState());
-        window.addEventListener('storage', onStorage);
-        return () => window.removeEventListener('storage', onStorage);
+        globalThis.addEventListener('storage', onStorage);
+        return () => globalThis.removeEventListener('storage', onStorage);
     }, []);
 
     const remainingPct = getRemainingPercent(quota);
@@ -34,14 +33,23 @@ const QuotaWidget = () => {
     const remaining = quota.limit - quota.used;
 
     // Color based on remaining
-    const barColor =
-        remainingPct > 50 ? '#4caf50' :
-            remainingPct > 20 ? '#ff9800' : '#f44336';
+    let barColor = '#f44336';
+    if (remainingPct > 50) barColor = '#4caf50';
+    else if (remainingPct > 20) barColor = '#ff9800';
+
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            setExpanded(prev => !prev);
+        }
+    };
 
     return (
         <div
             className={`quota-widget ${expanded ? 'expanded' : ''}`}
             onClick={() => setExpanded(prev => !prev)}
+            onKeyDown={handleKeyDown}
+            role="button"
+            tabIndex={0}
             title="Groq Instructor API Quota"
         >
             {/* Compact view — always visible */}

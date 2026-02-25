@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import PropTypes from 'prop-types';
 import App from './App';
 import './index.css';
 
@@ -30,6 +31,10 @@ class ErrorBoundary extends React.Component {
     return this.props.children;
   }
 }
+
+ErrorBoundary.propTypes = {
+  children: PropTypes.node
+};
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

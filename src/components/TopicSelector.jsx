@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import TopicImporter from './TopicImporter';
 import { getAllTopics, deleteTopic, isBuiltIn } from '../utils/topicStore';
 import { getAllLogs } from '../utils/attemptLog';
@@ -9,6 +10,7 @@ const TopicSelector = ({ onSelectTopic, sessionHistory }) => {
     const [selectedMode, setSelectedMode] = useState('sequential');
     const [topics, setTopics] = useState([]);
     const [attemptLogs, setAttemptLogs] = useState({});
+    const [searchTerm, setSearchTerm] = useState('');
 
     const loadTopics = useCallback(async () => {
         const allTopics = await getAllTopics();
@@ -21,7 +23,7 @@ const TopicSelector = ({ onSelectTopic, sessionHistory }) => {
     }, [loadTopics]);
 
     const handleDeleteTopic = async (topicId, topicName) => {
-        if (!window.confirm(`Delete "${topicName}"? This cannot be undone.`)) return;
+        if (!globalThis.confirm(`Delete "${topicName}"? This cannot be undone.`)) return;
 
         const success = await deleteTopic(topicId);
         if (success) {
@@ -39,6 +41,10 @@ const TopicSelector = ({ onSelectTopic, sessionHistory }) => {
     ];
 
     const hasHistory = sessionHistory && sessionHistory.length > 0;
+
+    const filteredTopics = topics.filter(topic => 
+        topic.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
     const { tg, user, showHaptic } = useTelegram();
     const [backendStatus, setBackendStatus] = useState('checking');
@@ -121,6 +127,17 @@ const TopicSelector = ({ onSelectTopic, sessionHistory }) => {
                 <TopicImporter onImportSuccess={loadTopics} />
             </div>
 
+            {/* Search Bar */}
+            <div className="px-2">
+                <input 
+                    type="text" 
+                    placeholder="🔍 Search topics..." 
+                    className="w-full p-4 rounded-2xl bg-tg-secondary/50 border border-white/5 focus:border-tg-button outline-none transition-all text-tg-text placeholder:text-tg-hint"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                />
+            </div>
+
             <div className="space-y-4 pt-2">
                 <div className="flex items-center justify-between px-2">
                     <h3 className="text-[11px] font-black text-tg-hint uppercase tracking-[0.2em]">📋 Practice Mode</h3>
@@ -161,16 +178,16 @@ const TopicSelector = ({ onSelectTopic, sessionHistory }) => {
             <div className="space-y-4 pt-4">
                 <div className="flex items-center justify-between px-2">
                     <h3 className="text-[11px] font-black text-tg-hint uppercase tracking-[0.2em]">📚 Learning Path</h3>
-                    <span className="text-[10px] font-bold text-tg-button">{topics.length} Topics Ready</span>
+                    <span className="text-[10px] font-bold text-tg-button">{filteredTopics.length} Topics</span>
                 </div>
                 <div className="space-y-4">
-                    {topics.map((topic, index) => (
+                    {filteredTopics.map((topic, index) => (
                         <div key={topic.id}
                             style={{ animationDelay: `${index * 100}ms` }}
                             className="group relative animate-in fade-in slide-in-from-bottom-4 duration-500 fill-mode-both">
                             <button
                                 className="w-full h-24 flex items-center gap-5 p-5 bg-tg-secondary/40 backdrop-blur-sm rounded-[28px] border border-white/5 active:scale-[0.97] transition-all text-left shadow-sm hover:border-white/10 hover:bg-tg-secondary/60"
-                                onClick={() => handleSelect(topic.id, selectedMode)}
+                                onClick={() => onSelectTopic(topic.id, selectedMode)}
                             >
                                 <div className="w-14 h-14 rounded-2xl flex items-center justify-center text-3xl shadow-inner relative overflow-hidden"
                                     style={{ backgroundColor: `${topic.color}15` }}>
@@ -242,6 +259,11 @@ const TopicSelector = ({ onSelectTopic, sessionHistory }) => {
             )}
         </div>
     );
+};
+
+TopicSelector.propTypes = {
+    onSelectTopic: PropTypes.func.isRequired,
+    sessionHistory: PropTypes.array
 };
 
 export default TopicSelector;

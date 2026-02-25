@@ -6,9 +6,9 @@
 
 import 'dotenv/config';
 import { MongoClient } from 'mongodb';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../src/data');
@@ -41,7 +41,7 @@ async function migrate() {
                 continue;
             }
 
-            const topicId = path.basename(file, '.json').toLowerCase().replace(/[^a-z0-9_-]/g, '_');
+            const topicId = path.basename(file, '.json').toLowerCase().replaceAll(/[^a-z0-9_-]/g, '_');
 
             // 1. Update Topic Metadata
             await db.collection('topics').updateOne(
@@ -81,4 +81,4 @@ async function migrate() {
     }
 }
 
-migrate();
+await migrate();

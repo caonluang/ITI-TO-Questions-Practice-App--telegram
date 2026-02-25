@@ -31,7 +31,7 @@ const getCustomTopicsLocal = () => {
 const getTopicMetaLocal = (id) => {
     const icons = ['📚', '📝', '🧠', '💡', '🔬', '📐', '🎓', '📖'];
     const colors = ['#ff9800', '#9c27b0', '#795548', '#607d8b', '#00bcd4', '#e91e63', '#4caf50', '#ff5722'];
-    const hash = id.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
+    const hash = id.split('').reduce((acc, c) => acc + c.codePointAt(0), 0);
     return { icon: icons[hash % icons.length], color: colors[hash % colors.length] };
 };
 
@@ -112,7 +112,7 @@ export const getQuizData = async (topicId) => {
 
 /** Add a new topic (Hybrid: MongoDB + Local Fallback) */
 export const addTopic = async (topicData, originalFileName, rawContent) => {
-    const topicId = (topicData.topic || 'Untitled').toLowerCase().replace(/\s+/g, '_');
+    const topicId = (topicData.topic || 'Untitled').toLowerCase().replaceAll(/\s+/g, '_');
 
     // 1. Try MongoDB
     try {
@@ -168,7 +168,7 @@ export const isBuiltIn = (topicId) => BUILT_IN_MAP.hasOwnProperty(topicId);
  */
 const normalizeText = (text) => {
     if (!text) return '';
-    const rawLines = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
+    const rawLines = text.replaceAll(/\r\n/g, '\n').replaceAll(/\r/g, '\n').split('\n');
     let inCodeFence = false;
 
     return rawLines.map(line => {
@@ -223,7 +223,7 @@ export const parseTxtToQuiz = (text, topicName) => {
         if (!t) return '';
         return t.trim()
             .replace(/^\*\*+(.*?)\*\*+$/, '$1') // Strip wrapping **
-            .replace(/\*\*/g, '')              // Strip all other **
+            .replaceAll(/\*\*/g, '')              // Strip all other **
             .trim();
     };
 

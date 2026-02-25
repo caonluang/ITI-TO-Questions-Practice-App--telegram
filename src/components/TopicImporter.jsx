@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import PropTypes from 'prop-types';
 import { addTopic, parseTxtToQuiz } from '../utils/topicStore';
 // import './TopicImporter.css';
 
@@ -48,7 +49,7 @@ const TopicImporter = ({ onImportSuccess }) => {
                         file,
                         content,
                         type: 'txt',
-                        topicName: file.name.replace('.txt', '').replace(/_/g, ' '),
+                        topicName: file.name.replaceAll('.txt', '').replaceAll(/_/g, ' '),
                         questionCount: qCount,
                         valid: qCount > 0
                     });
@@ -105,9 +106,9 @@ const TopicImporter = ({ onImportSuccess }) => {
                 }
             } else {
                 const topicName = preview.file.name
-                    .replace('.txt', '')
-                    .replace(/_/g, ' ')
-                    .replace(/\b\w/g, c => c.toUpperCase());
+                    .replaceAll('.txt', '')
+                    .replaceAll(/_/g, ' ')
+                    .replaceAll(/\b\w/g, c => c.toUpperCase());
                 quizData = parseTxtToQuiz(preview.content, topicName);
 
                 if (quizData.questions.length === 0) {
@@ -166,6 +167,13 @@ const TopicImporter = ({ onImportSuccess }) => {
                             onDragOver={handleDrag}
                             onDrop={handleDrop}
                             onClick={() => !preview && fileInputRef.current?.click()}
+                            role="button"
+                            tabIndex={0}
+                            onKeyDown={(e) => {
+                                if (!preview && (e.key === 'Enter' || e.key === ' ')) {
+                                    fileInputRef.current?.click();
+                                }
+                            }}
                         >
                             <input
                                 ref={fileInputRef}
@@ -267,6 +275,10 @@ A: ...`}</pre>
             )}
         </div>
     );
+};
+
+TopicImporter.propTypes = {
+    onImportSuccess: PropTypes.func
 };
 
 export default TopicImporter;

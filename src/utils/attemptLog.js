@@ -47,7 +47,7 @@ export const extractKeywords = (questionText) => {
 
     // Remove question marks and special characters, split into words
     const words = questionText
-        .replace(/[?!.,;:()\\[\\]{}"'`]/g, '')
+        .replaceAll(/[?!.,;:()\\[\\]{}"'`]/g, '')
         .split(/\s+/)
         .filter(w => w.length > 2)
         .filter(w => !stopWords.has(w.toLowerCase()));

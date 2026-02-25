@@ -1,5 +1,5 @@
 import React from 'react';
-// // import './QuestionCard.css';
+import PropTypes from 'prop-types';
 import { useTelegram } from '../hooks/useTelegram';
 
 const QuestionCard = ({
@@ -101,6 +101,21 @@ const QuestionCard = ({
             </div>
         </div>
     );
+};
+
+QuestionCard.propTypes = {
+    question: PropTypes.shape({
+        question: PropTypes.string.isRequired,
+        options: PropTypes.arrayOf(PropTypes.string).isRequired,
+        correctIndex: PropTypes.number.isRequired,
+        code: PropTypes.string
+    }).isRequired,
+    selectedAnswer: PropTypes.number,
+    onSelectAnswer: PropTypes.func.isRequired,
+    showAnswer: PropTypes.bool.isRequired,
+    disabled: PropTypes.bool.isRequired,
+    focusMode: PropTypes.bool.isRequired,
+    highlightedOption: PropTypes.number
 };
 
 export default QuestionCard;

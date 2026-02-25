@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-// import './Timer.css';
+import PropTypes from 'prop-types';
 
 const Timer = ({ timeLeft, maxTime = 15, isPaused = false }) => {
     const percentage = (timeLeft / maxTime) * 100;
@@ -11,7 +11,7 @@ const Timer = ({ timeLeft, maxTime = 15, isPaused = false }) => {
     useEffect(() => {
         if (isWarning && timeLeft > 0 && timeLeft <= 3 && flooredTimeLeft === timeLeft && !isPaused) {
             // Beep sound using Web Audio API
-            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const audioContext = new (globalThis.AudioContext || globalThis.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             const gainNode = audioContext.createGain();
 
@@ -77,6 +77,12 @@ const Timer = ({ timeLeft, maxTime = 15, isPaused = false }) => {
             )}
         </div>
     );
+};
+
+Timer.propTypes = {
+    timeLeft: PropTypes.number.isRequired,
+    maxTime: PropTypes.number,
+    isPaused: PropTypes.bool
 };
 
 export default Timer;

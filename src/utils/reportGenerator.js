@@ -75,8 +75,8 @@ export const generateReport = (sessionData, questions) => {
         report += `    ${statusEmoji} ${result.status} | ⏱️ ${timeStr}\n`;
 
         if (result.status === 'Wrong') {
-            report += `    Your Answer: ${String.fromCharCode(65 + result.selectedAnswer)}\n`;
-            report += `    Correct: ${String.fromCharCode(65 + question?.correctIndex)}\n`;
+            report += `    Your Answer: ${String.fromCodePoint(65 + result.selectedAnswer)}\n`;
+            report += `    Correct: ${String.fromCodePoint(65 + question?.correctIndex)}\n`;
         }
         report += '\n';
     });
@@ -122,7 +122,7 @@ export const downloadReport = (reportText, topic) => {
     const timestamp = new Date().toISOString().split('T')[0];
 
     link.href = URL.createObjectURL(blob);
-    link.download = `quiz_report_${topic.replace(/\s+/g, '_')}_${timestamp}.txt`;
+    link.download = `quiz_report_${topic.replaceAll(/\s+/g, '_')}_${timestamp}.txt`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

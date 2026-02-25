@@ -1,5 +1,5 @@
 import React from 'react';
-// // import './ProgressBar.css';
+import PropTypes from 'prop-types';
 
 const ProgressBar = ({ current, total, results }) => {
     const progress = (current / total) * 100;
@@ -39,6 +39,14 @@ const ProgressBar = ({ current, total, results }) => {
             </div>
         </div>
     );
+};
+
+ProgressBar.propTypes = {
+    current: PropTypes.number.isRequired,
+    total: PropTypes.number.isRequired,
+    results: PropTypes.arrayOf(PropTypes.shape({
+        status: PropTypes.string.isRequired
+    })).isRequired
 };
 
 export default ProgressBar;

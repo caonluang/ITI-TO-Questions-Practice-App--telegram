@@ -1,7 +1,7 @@
 
 const normalizeText = (text) => {
     if (!text) return '';
-    const rawLines = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
+    const rawLines = text.replaceAll(/\r\n/g, '\n').replaceAll(/\r/g, '\n').split('\n');
     let inCodeFence = false;
     return rawLines.map(line => {
         const trimmed = line.trim();
@@ -33,7 +33,7 @@ const parseTxtToQuiz = (text, topicName) => {
 
     const cleanMarkdown = (t) => {
         if (!t) return '';
-        return t.trim().replace(/^\*\*+(.*?)\*\*+$/, '$1').replace(/\*\*/g, '').trim();
+        return t.trim().replace(/^\*\*+(.*?)\*\*+$/, '$1').replaceAll(/\*\*/g, '').trim();
     };
 
     const pushIfValid = () => {
